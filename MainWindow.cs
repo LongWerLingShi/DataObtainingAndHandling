@@ -12,6 +12,8 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Pipeline.AppConfig;
+using Microsoft.Office.Interop.Word;
+using MSWord = Microsoft.Office.Interop.Word;
 
 namespace Pipeline
 {
@@ -56,8 +58,8 @@ namespace Pipeline
         public static Hashtable tagPreview;
         //public static List<string> _newTags;
         public static List<string> _stopWords;
-        private string _stopWordsPath = Application.StartupPath + "\\" + "StopWords.txt";
-        private string _tagPath = Application.StartupPath + "\\" + "Tags.txt";
+        private string _stopWordsPath = System.Windows.Forms.Application.StartupPath + "\\" + "StopWords.txt";
+        private string _tagPath = System.Windows.Forms.Application.StartupPath + "\\" + "Tags.txt";
 
         public static int getTagNo()  //  获取最大的tag_id
         {
@@ -414,6 +416,30 @@ namespace Pipeline
             }
             else if (temp.Extension.Equals(".doc"))
             {
+                try
+                {
+                    Microsoft.Office.Interop.Word.Application app = new Microsoft.Office.Interop.Word.Application();
+                    Microsoft.Office.Interop.Word.Document doc = null;
+                    object unknow = Type.Missing;
+                    //app.Visible = true;
+                    string str = curPath;
+                    object file = str;
+                    doc = app.Documents.Open(ref file,
+                        ref unknow, ref unknow, ref unknow, ref unknow,
+                        ref unknow, ref unknow, ref unknow, ref unknow,
+                        ref unknow, ref unknow, ref unknow, ref unknow,
+                        ref unknow, ref unknow, ref unknow);
+                    //string temp = doc.Paragraphs[1].Range.Text.Trim();
+                    string temp1 = doc.Content.Text.Trim();
+                    //Console.WriteLine(temp);
+                    app.Quit(ref unknow, ref unknow, ref unknow);
+                    ProcessProcedure.Processwrd(temp1, false);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+     
             }
             else
             {
