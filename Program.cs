@@ -28,6 +28,9 @@ namespace ruangong
         private const int TYPE_DEWEN = 4;
         private const int TYPE_UNKNOWN = 0;
         private int type;
+        private HtmlNode rootNode;
+        StreamWriter sw = File.CreateText("log.txt");
+        StreamWriter tag = File.CreateText("tag.txt");
         public Deal(string path)
         {
             this.path = path;
@@ -63,13 +66,13 @@ namespace ruangong
         public void run()
         {
             HttpWebRequest req;
-            req = WebRequest.Create(new Uri("http://blog.csdn.net/eric_guodongliang/article/details/7187880")) as HttpWebRequest;
+            req = WebRequest.Create(new Uri("https://channel9.msdn.com/Browse/AllContent?page=1100")) as HttpWebRequest;
             req.Method = "GET";
             WebResponse rs = req.GetResponse();
 
             Stream rss = rs.GetResponseStream();
 
-            String url = @"https://zhidao.baidu.com/question/264213135726373365.html";
+            String url = @"http://ask.csdn.net/questions/219537?sort=comments_count";
 
             HtmlDocument doc = new HtmlDocument();
             try
@@ -92,8 +95,8 @@ namespace ruangong
                         break;
                 }
                 /* 如果要读取在线网页，则使用以下语句*/
-                // doc.Load(rss, Encoding.UTF8);
-                //doc.Save("output.html");
+                doc.Load(rss, Encoding.UTF8);
+                doc.Save("output.html");
             }
             catch (Exception e)
             {
@@ -103,10 +106,11 @@ namespace ruangong
 
 
             //HtmlNode node = doc.GetElementbyId("post_list");
-            HtmlNode rootNode = doc.DocumentNode;
-            StreamWriter sw = File.CreateText("log.txt");
-            StreamWriter tag = File.CreateText("tag.txt");
+            rootNode = doc.DocumentNode;
 
+            MSDNBRO();
+            Console.ReadLine();
+            return;
             string denoisingdata = doc.DocumentNode.InnerText;  //  对网页中的html内容进行去噪
 
             /*
@@ -119,54 +123,10 @@ namespace ruangong
             Console.Write(denoisingdata);
             if (type == TYPE_UNKNOWN|| type == TYPE_CNBLOGS_Q)
             {
-                CategoryListXPath = "//title|//t|//p|//li|//tag";
-                //源代码中，qcnblog里面无任何关键字，关键字均和题目相同
-                HtmlNodeCollection categoryNodeList = rootNode.SelectNodes(CategoryListXPath);
-                foreach (HtmlNode child in categoryNodeList)
-                {
-                    HtmlNode hn = HtmlNode.CreateNode(child.OuterHtml);
-                    //GetEncoding("GB2312")
-                    /*
-                    byte[] buffer = Encoding.GetEncoding("GB2312").GetBytes(hn.SelectSingleNode("//title").InnerText);
-                    str = Encoding.GetEncoding("GB2312").GetString(buffer);
-                    */
-                    if (hn.SelectSingleNode("//title|//tag") != null)
-                    {
-                        //hn.SelectSingleNode("//title").InnerHtml;
-                        Write(sw, tag, hn.SelectSingleNode("//title").InnerText);
-                    }
-                    else
-                    {
-                     //   Write(sw, null, hn.SelectSingleNode("//title|//t|//p|//li").InnerText);
-                    }
-                    /*
-                    Write(sw, String.Format("标题：{0}", hn.SelectSingleNode("//*[@class=\"titlelnk\"]").InnerText));
-                    Write(sw, String.Format("介绍：{0}", hn.SelectSingleNode("//*[@class=\"post_item_summary\"]").InnerText));
-                    Write(sw, String.Format("信息：{0}", hn.SelectSingleNode("//*[@class=\"post_item_foot\"]").InnerText));
-                    */
-                    // Write(sw, "----------------------------------------");
-                }
+                UNKNOWN_QCNBLOGS();
             }else if (type == TYPE_ZHIDAO|| type == TYPE_DEWEN|| type == TYPE_WENWEN)
             {
-                //这三个网页源代码很相似。。。关键词都在同一个位置故直接用一个来处理
-                CategoryListXPath = "//title|//t|//p|//li|//tag|//meta";
-                HtmlNodeCollection categoryNodeList = rootNode.SelectNodes(CategoryListXPath);
-                foreach (HtmlNode child in categoryNodeList)
-                {
-                    HtmlNode hn = HtmlNode.CreateNode(child.OuterHtml);
-                    if (hn.SelectSingleNode("//title|//tag") != null)
-                    {
-                        Write(sw, tag, hn.SelectSingleNode("//title").InnerText);
-                    }
-                    else if(hn.SelectSingleNode("//meta")!=null)
-                    {
-                        string str = hn.SelectSingleNode("//meta").InnerHtml;
-                        string reg = "(?<=meta name=\"keywords\" content=\").*?(?=\")";
-                        string key_words = Regex.Match(str, reg).Value;
-                        Write(sw, tag, key_words);
-                    }
-                   
-                }
+                ZHIDAO_DEWEN_WENWEN();
             }
             
 
@@ -174,6 +134,111 @@ namespace ruangong
             sw.Close();
 
             Console.ReadLine();
+        }
+        private void UNKNOWN_QCNBLOGS()
+        {
+            CategoryListXPath = "//title|//t|//p|//li|//tag|//h1|//h2|//h3|//h4|//h5|//h6";
+            //源代码中，qcnblog里面无任何关键字，关键字均和题目相同
+            HtmlNodeCollection categoryNodeList = rootNode.SelectNodes(CategoryListXPath);
+            foreach (HtmlNode child in categoryNodeList)
+            {
+                HtmlNode hn = HtmlNode.CreateNode(child.OuterHtml);
+                //GetEncoding("GB2312")
+                /*
+                byte[] buffer = Encoding.GetEncoding("GB2312").GetBytes(hn.SelectSingleNode("//title").InnerText);
+                str = Encoding.GetEncoding("GB2312").GetString(buffer);
+                */
+                if (hn.SelectSingleNode("//title|//tag|//h1|//h2|//h3|//h4|//h5|//h6") != null)
+                {
+                    //hn.SelectSingleNode("//title").InnerHtml;
+                    Write(sw, tag, hn.SelectSingleNode("//title|//h1|//h2|//h3|//h4|//h5|//h6").InnerText);
+                }
+                else
+                {
+                    //   Write(sw, null, hn.SelectSingleNode("//title|//t|//p|//li").InnerText);
+                }
+                /*
+                Write(sw, String.Format("标题：{0}", hn.SelectSingleNode("//*[@class=\"titlelnk\"]").InnerText));
+                Write(sw, String.Format("介绍：{0}", hn.SelectSingleNode("//*[@class=\"post_item_summary\"]").InnerText));
+                Write(sw, String.Format("信息：{0}", hn.SelectSingleNode("//*[@class=\"post_item_foot\"]").InnerText));
+                */
+                // Write(sw, "----------------------------------------");
+            }
+        }
+        private void ASKCNBLOG()
+        {
+            CategoryListXPath = "//title|//t|//h1|//h2|//h3|//h4|//h5|//h6|//p|//li|//tag|//meta|//span";
+            HtmlNodeCollection categoryNodeList = rootNode.SelectNodes(CategoryListXPath);
+            foreach (HtmlNode child in categoryNodeList)
+            {
+                HtmlNode hn = HtmlNode.CreateNode(child.OuterHtml);
+                if (hn.SelectSingleNode("//title|//tag|//h1|//h2|//h3|//h4|//h5|//h6") != null)
+                {
+                    Write(sw, tag, hn.SelectSingleNode("//title|//h1|//h2|//h3|//h4|//h5|//h6").InnerText);
+                }
+                else if (hn.SelectSingleNode("//meta") != null)
+                {
+                    string str = hn.SelectSingleNode("//meta").OuterHtml;
+                    string reg = "(?<=meta content=\").*?(?=\" name=\"keywords\")";
+                    string key_words = Regex.Match(str, reg).Value;
+                    Write(sw, tag, key_words);
+                } else if (hn.SelectSingleNode("//span") != null)
+                {
+                    if(hn.SelectSingleNode("//*[@class=\"user_name\"]") !=null)
+                    {
+                        string str = hn.SelectSingleNode("//*[@class=\"user_name\"]").InnerText;
+                        Write(sw, tag, str);
+                    }
+                    
+                }
+
+            }
+        }
+        private void MSDNBRO()
+        {
+            CategoryListXPath = "//title|//t|//h1|//h2|//h3|//h4|//h5|//h6|//div";
+            HtmlNodeCollection categoryNodeList = rootNode.SelectNodes(CategoryListXPath);
+            foreach (HtmlNode child in categoryNodeList)
+            {
+                HtmlNode hn = HtmlNode.CreateNode(child.OuterHtml);
+                if (hn.SelectSingleNode("//title|//tag|//h1|//h2|//h3|//h4|//h5|//h6") != null)
+                {
+                    Write(sw, tag, hn.SelectSingleNode("//title|//h1|//h2|//h3|//h4|//h5|//h6").InnerText);
+                }
+                else if (hn.SelectSingleNode("//*[@class=\"entry-image\"]") != null)
+                {
+                    if (hn.SelectSingleNode("//*[@class=\"thumb\"]") != null)
+                    {
+                        string str = hn.SelectSingleNode("//*[@class=\"thumb\"]").OuterHtml;
+                        string reg = "(?<=alt=\")[^\"]*\"";
+                        string key_words = Regex.Match(str, reg).Value;
+                        Write(sw, tag, key_words);
+                    }
+                }
+
+            }
+        }
+        private void ZHIDAO_DEWEN_WENWEN()
+        {
+            //这三个网页源代码很相似。。。关键词都在同一个位置故直接用一个来处理
+            CategoryListXPath = "//title|//t|//p|//li|//tag|//meta|//h1|//h2|//h3|//h4|//h5|//h6";
+            HtmlNodeCollection categoryNodeList = rootNode.SelectNodes(CategoryListXPath);
+            foreach (HtmlNode child in categoryNodeList)
+            {
+                HtmlNode hn = HtmlNode.CreateNode(child.OuterHtml);
+                if (hn.SelectSingleNode("//title|//tag|//h1|//h2|//h3|//h4|//h5|//h6") != null)
+                {
+                    Write(sw, tag, hn.SelectSingleNode("//title|//h1|//h2|//h3|//h4|//h5|//h6").InnerText);
+                }
+                else if (hn.SelectSingleNode("//meta") != null)
+                {
+                    string str = hn.SelectSingleNode("//meta").OuterHtml;
+                    string reg = "(?<=meta name=\"keywords\" content=\").*?(?=\")";
+                    string key_words = Regex.Match(str, reg).Value;
+                    Write(sw, tag, key_words);
+                }
+
+            }
         }
         public void Write(StreamWriter writer, StreamWriter tag, string str)
         {
