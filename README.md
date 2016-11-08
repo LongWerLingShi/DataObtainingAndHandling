@@ -1,24 +1,42 @@
 # DataObtainingAndHandling
 
-È¥ÔëÄ£¿é½Ó¿Úword²¿·Ö£º
-Public string denoiseWord(string path);
-Require:´«ÈëÎÄ¼şµØÖ·path
-Effect:wordÎÄ¼ş½µÔë£¬·µ»Ø½µÔëºóµÄÎÄ±¾
-Modified:ÎŞ
+å»å™ªæ¨¡å—æ¥å£wordéƒ¨åˆ†ï¼š
 
-ÌáÈ¡¹Ø¼ü´ÊÄ£¿é£º
+Public string denoiseWord(string path);
+
+Require:ä¼ å…¥æ–‡ä»¶åœ°å€path
+
+Effect:wordæ–‡ä»¶é™å™ªï¼Œè¿”å›é™å™ªåçš„æ–‡æœ¬
+
+Modified:æ— 
+
+
+æå–å…³é”®è¯æ¨¡å—ï¼š
+
 Public string getKey(string doc);
-Require:´«ÈëĞèÒªÌáÈ¡¹Ø¼ü´ÊµÄÎÄ±¾
-Effect:ÌáÈ¡¹Ø¼ü´Ê£¬²¢ÇÒ·­Òë¹Ø¼ü´Ê£¬½«ÎÄ±¾ÖĞÌáÈ¡µ½µÄ¹Ø¼ü´ÊºÍ·­ÒëºóµÄĞ´³É×Ö·û´®·µ»Ø
-Modified:ÎŞ
+
+Require:ä¼ å…¥éœ€è¦æå–å…³é”®è¯çš„æ–‡æœ¬
+
+Effect:æå–å…³é”®è¯ï¼Œå¹¶ä¸”ç¿»è¯‘å…³é”®è¯ï¼Œå°†æ–‡æœ¬ä¸­æå–åˆ°çš„å…³é”®è¯å’Œç¿»è¯‘åçš„å†™æˆå­—ç¬¦ä¸²è¿”å›
+
+Modified:æ— 
+
 
 Private string segmentWord(string doc);
-Require:´«Èë½µÔëºóµÄÎÄ±¾
-Effect:¶ÔÎÄ±¾·Ö´Ê£¬²¢ÇÒ½«¸ù¾İ·Ö´ÊºóµÄ½á¹ûÌáÈ¡¹Ø¼ü´Ê
-Modified:ÎŞ
+
+Require:ä¼ å…¥é™å™ªåçš„æ–‡æœ¬
+
+Effect:å¯¹æ–‡æœ¬åˆ†è¯ï¼Œå¹¶ä¸”å°†æ ¹æ®åˆ†è¯åçš„ç»“æœæå–å…³é”®è¯
+
+Modified:æ— 
+
 
 Private string translate(string key);
-Require:´«ÈëÌáÈ¡µ½µÄ¹Ø¼ü´Ê
-Effect:·­Òë¹Ø¼ü´Ê£¬½«¹Ø¼ü´ÊºÍ·­ÒëºóµÄÎÄ±¾Ò»Æğ·µ»Ø
-Modified:ÎŞ
+
+Require:ä¼ å…¥æå–åˆ°çš„å…³é”®è¯
+
+Effect:ç¿»è¯‘å…³é”®è¯ï¼Œå°†å…³é”®è¯å’Œç¿»è¯‘åçš„æ–‡æœ¬ä¸€èµ·è¿”å›
+
+Modified:æ— 
+
 
