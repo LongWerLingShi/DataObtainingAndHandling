@@ -16,16 +16,17 @@ public class DBHelper {
 	private String userPwd;
 	private Connection conn;
 	private Statement sta;
-	private String TableName = "Question";			//因为之前商量说数据库只有一张表，所以构造时不用传表名，在这里定义一下即可
+	private String tableName;			
 	/*
 	 * 构造方法
 	 * @prama：服务器ip，数据库名称basename，用户名username，密码password
 	 */
-	public DBHelper(String ip,String basename,String username,String password) {
+	public DBHelper(String ip,String basename, String tableName, String username,String password) {
 		this.ip = ip;
 		this.baseName = basename;
 		this.userName = username;
 		this.userPwd = password;
+		this.tableName = tableName;
 		String dbURL="jdbc:sqlserver://" + ip + ":1433;DatabaseName=" + baseName;
 		try
 		{
@@ -53,7 +54,7 @@ public class DBHelper {
 		String valuestr = "";
 		ResultSet rs = null;
 		int num = 0;
-		String sqlquery = "Select * from " + TableName + " where ";
+		String sqlquery = "Select * from " + tableName + " where ";
 		for(Map.Entry<String, Object> pair : map.entrySet()) {
 			attribute = pair.getKey();
 			value = pair.getValue();
@@ -64,19 +65,22 @@ public class DBHelper {
 				valuestr = value.toString();
 			}
 			if(num == 0) {
-				sqlquery += attribute + " = " + valuestr;					
+				sqlquery += attribute + " = " + valuestr;
 			}
 			else {
-				sqlquery += " and " + attribute + " = " + valuestr;	
+				sqlquery += " and " + attribute + " = " + valuestr;
 			}
 			num++;
+		}
+		if(num == 0) {
+			sqlquery = "Select * from " + tableName;
 		}
 //		System.out.println(sqlquery);
 		try {
 			rs = sta.executeQuery(sqlquery);
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}		
+		}
 		return rs;		
 	}
 	
@@ -94,7 +98,7 @@ public class DBHelper {
 		for(Map.Entry<String, Object> pair : map.entrySet()) {
 			attribute = pair.getKey();
 			value = pair.getValue();
-			sqlupdate = "update " + TableName + " set " + attribute + " = " + value.toString() + " where qid = " + id;
+			sqlupdate = "update " + tableName + " set " + attribute + " = " + value.toString() + " where qid = " + id;
 //			System.out.println(sqlupdate);
 			try {
 				num = sta.executeUpdate(sqlupdate);
@@ -122,7 +126,7 @@ public class DBHelper {
 		Object value;
 		String sqlinsert = "";
 		try {
-			ResultSet rs = sta.executeQuery("Select * from " + TableName);
+			ResultSet rs = sta.executeQuery("Select * from " + tableName);
 			rs.moveToInsertRow();
 			for(Map.Entry<String, Object> pair : map.entrySet()) {
 				attribute = pair.getKey();
@@ -148,7 +152,7 @@ public class DBHelper {
 		String valuestr = "";
 		int num = 0;
 		int count = 0;
-		String sqldelete = "delete from " + TableName + " where ";
+		String sqldelete = "delete from " + tableName + " where ";
 		for(Map.Entry<String, Object> pair : map.entrySet()) {
 			attribute = pair.getKey();
 			value = pair.getValue();
@@ -172,6 +176,23 @@ public class DBHelper {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}	
+		return count;
+	}
+	
+	/*
+	 * 根据id删除行
+	 * @prama:要删除的行的id
+	 * @return:1表示成功，0表示失败
+	 */
+	public int delete(int id) {
+		String sqldelete = "delete from " + tableName + " where id = " + id;
+		int count = 0;
+		try {
+			count = sta.executeUpdate(sqldelete);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return count;
 	}
 	

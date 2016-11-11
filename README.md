@@ -46,19 +46,18 @@ Modified:无
 ```java
 /*
  * 数据库管理类，可以对数据库进行查询，更新，插入，删除操作
- * 食用需求：在src中导入sqljdbc4.jar,
+ * 使用需求：在src中导入sqljdbc4.jar,
  * 下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=11774
  * 下载sqljdbc_4.0.2206.100_chs.tar.gz
  */
 class DBHelper
 {
-  private String TableName = ?; //因为之前商量说数据库只有一张表，所以构造时不用传表名，在这里定义一下即可
 
   /*
    * 构造方法
-   * @prama：服务器ip，数据库名称basename，用户名username，密码password
+   * @prama：服务器ip，数据库名称basename，表名tablename, 用户名username，密码password
    */
-  public DBHelper(String ip,String basename,String username,String password);
+  public DBHelper(String ip,String basename, String tableName, String username,String password);
 
   /*
    * 查询方法
@@ -98,7 +97,47 @@ class DBHelper
    */
   public void release();
 }
+
+
+/*
+ * solr操作类，可以对solr进行查找，插入，删除操作
+ *
+ */
+class SolrHelper
+{
+  /*
+   * 构造方法
+   * @prama:solr的ip和port。这次作业是ip:10.2.28.82,port:8080
+   */
+  public SolrHelper(String ip,String port);
+
+  /*
+   * 查询方法
+   * @prama:保存着属性名(String)，和属性值(Object)的map，此为查询条件;查询返回的最大行数row;希望返回的属性fields，可输入多个
+   * @return:保存着查询结果的SolrDocumentList，用法类似ArrayList;里面元素类型为SolrDocument，用法：SolrDocument.getValue(属性名)
+   */
+  public SolrDocumentList query(Map<String,Object> map, int row, String... fields);
+
+  /*
+   * 插入方法
+   * @prama:保存着属性名(String)，和属性值(Object)的map
+   */
+  public void insert(Map<String, Object> map);
+
+  /*
+   *插入方法
+   *@prama：要传导solr的属性（暂定）
+   */
+  public void insert(String id,String title,String links,String date,String content,String author);
+
+  /*
+   * 删除方法
+   * @prama:要删除的doc的id
+   */
+  public void delete(String id);
+}
 ```
+
 * 
 *
 
