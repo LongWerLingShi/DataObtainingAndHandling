@@ -62,10 +62,10 @@ class DBHelper
   /*
    * 查询方法
    * 根据传入的属性值查询，返回查询结果
-   * @prama:一个保存着属性名(String)，属性值(Object)的map
+   * @prama:一个保存着属性名(String)，属性值(Object)的map,count为返回的最大条数，小于等于0时视为返回全部。
    * @return:保存着查询结果的ResultSet，类似一个表，具体用法可以看我的例子或者查看java api(java.sql.ResultSet)
    */
-  public ResultSet query(Map<String, Object> map);
+  public ResultSet query(int count, Map<String, Object> map);
 
   /*
    * 更新数据
