@@ -1,5 +1,6 @@
 package dbandsolr;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.sql.*;
@@ -24,47 +25,38 @@ public class Main {
 //		m.testquery();
 //		m.testdelete();
 //		m.testsolrinsert();
-//		m.testsolrquery();
+		m.testsolrquery();
 //		m.testsolrdelete();
 //		m.testsolrquery();
-		int count = 0;
-		SolrHelper solr = new SolrHelper(solrip,port);
-		DBHelper db = new DBHelper(ip,basename,"Question",username,password);
-		String line;
-		ResultSet rs = db.query(new HashMap());
+
+	}
+
+	public String getnotdealed() {
+		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("isDeal", 1);
+		ResultSet rs = db.query(1, map);
+		String path = null;
 		try {
-			count = rs.getMetaData().getColumnCount();
-			while(rs.next()) {
-				line = "";
-//				for(int i = 1;i <= count;i ++) {
-//					if(i == rs.findColumn("body") || i == rs.findColumn("link") || i == rs.findColumn("title")){						
-//					}
-//					else {
-//						line += rs.getString(i) + '\t';	
-//					}			
-//				}
-//				System.out.println(line);
-				System.out.println(rs.getString("qid")+ " " + rs.getString("title")+ " " + rs.getString("link")+ " " + rs.getString("creation_date")+ " " + rs.getString("owner"));
-				solr.insert(rs.getString("qid"), rs.getString("title"), rs.getString("link"), rs.getString("creation_date"), rs.getString("body"), rs.getString("owner"));
-			}
-			if(rs != null) {
-				rs.close();				
+			if(rs.next()) {
+				path = rs.getString("FilePath");				
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}		
 		db.release();
+		return path;
 	}
-
+	
 	public void testsolrinsert() {
 		SolrHelper solr = new SolrHelper(solrip,port);
-//		Map<String, Object> map = new HashMap();
-//		map.put("wid", 1);
-//		map.put("id", "webtest");
-//		map.put("web_title", "baidu");
-//		solr.insert(map);
-//		solr.insert("webtest", "baidu", "www.baidu.com");
+		Map<String, Object> map = new HashMap();
+		map.put("wid", 1);
+		map.put("id", "webtest");
+		map.put("web_title", "baidu");
+		solr.insert(map);
+		solr.insert("webid", "title", "links", "date", "content", "author");
 	}
 	
 	public void testsolrdelete() {
@@ -77,32 +69,26 @@ public class Main {
 		SolrHelper solr = new SolrHelper(solrip,port);
 		Map<String, Object> map = new HashMap();
 		int num = 0;
-		map.put("id", "*");
+		map.put("id", "web*");
 		map.put("title", "baidu");
 		SolrDocumentList list = solr.query(map, 100, "id", "title", "links");
 		for(int i = 0;i < list.size();i ++) {
 			SolrDocument doc = list.get(i);
 			System.out.print(i + 1);
-			System.out.print("id: " + doc.getFieldValue("id"));
-			System.out.print("title: " + doc.getFieldValue("title"));
-			System.out.println("links: " + doc.getFieldValue("links"));
+			System.out.print(" id: " + doc.getFieldValue("id"));
+			System.out.print(" title: " + doc.getFieldValue("title"));
+			System.out.println(" links: " + doc.getFieldValue("links"));
 		}
-//		for(SolrDocument doc : list) {
-//			num++;
-//			System.out.print(num + " ");
-//			System.out.print("id: " + doc.getFieldValue("id"));
-//			System.out.print("title: " + doc.getFieldValue("title"));
-//			System.out.println("links: " + doc.getFieldValue("links"));
-//		}
 	}
 	
 	public void testdelete()
 	{
 		DBHelper db = new DBHelper(ip,basename,table1,username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("id", 2);
+		map.put("author", "QI");
 		db.delete(map);
-		db.delete(1);
+		db.delete(8);
+		db.delete(9);
 		db.release();
 	}
 	
@@ -123,22 +109,16 @@ public class Main {
 	{
 		DBHelper db = new DBHelper(ip,basename,table1,username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-//		map.put("answer_count", 1);
-//		map.put("view_count", 27);
-		map.put("isDeal", 0);
-		ResultSet rs = db.query(map);
+		map.put("filetype", "html");
+		ResultSet rs = db.query(-1,map);
 		int count;
 		String line = "";
 		try {
 			count = rs.getMetaData().getColumnCount();
 			while(rs.next()) {
 				line = "";
-				for(int i = 1;i <= count;i ++) {
-					if(i == rs.findColumn("body") || i == rs.findColumn("link") || i == rs.findColumn("title")){						
-					}
-					else {
-						line += rs.getString(i) + '\t';	
-					}			
+				for(int i = 1;i <= count;i ++) {				
+					line += rs.getString(i) + '\t';					
 				}
 				System.out.println(line);
 			}
@@ -156,9 +136,11 @@ public class Main {
 	public void testupdate() {
 		DBHelper db = new DBHelper(ip,basename,table1,username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("answer_count", 1);
-		map.put("view_count", 27);
-		db.update(1, map);
+		map.put("title", "baidu");
+		map.put("date", "2010-9-1");
+		map.put("author", "QI");
+		map.put("keywords", "test1,rt2");
+		db.update(7, map);
 		db.release();
 	}
 	

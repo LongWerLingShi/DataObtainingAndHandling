@@ -16,7 +16,9 @@ import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
 
-
+/*
+ * solr操作类，可以对solr进行查找，插入，删除操作
+ */
 public class SolrHelper {
 	String ip;
 	String port;
@@ -86,6 +88,9 @@ public class SolrHelper {
 	 */
 	public void insert(Map<String, Object> map) {
 		SolrInputDocument doc = new SolrInputDocument();
+		if(map == null) {
+			return;
+		}
 		for(Map.Entry<String, Object> pair : map.entrySet()) {
 			doc.addField(pair.getKey(), pair.getValue());
 		}
@@ -98,6 +103,10 @@ public class SolrHelper {
 		}	
 	}
 	
+	/*
+	 *插入方法
+	 *@prama：要传导solr的属性（暂定）
+	 */
 	public void insert(String id,String title,String links,String date,String content,String author) {
 		SolrData sd = new SolrData();
 		sd.id = id;
