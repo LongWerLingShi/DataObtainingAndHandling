@@ -1,0 +1,12 @@
+{
+	"openState":"close",
+	"threadNumber":"5",
+	"thread":
+	[
+		{"URL":"null","schedule":"Waiting"},
+		{"URL":"null","schedule":"Waiting"},
+		{"URL":"null","schedule":"Waiting"},
+		{"URL":"null","schedule":"Waiting"},
+		{"URL":"null","schedule":"Waiting"}
+	]
+}
