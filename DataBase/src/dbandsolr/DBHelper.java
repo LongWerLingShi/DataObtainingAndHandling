@@ -81,7 +81,12 @@ public class DBHelper {
 			}
 		}
 		if(num == 0) {
-			sqlquery = "Select * from " + tableName;
+			if(count > 0) {
+				sqlquery = "Select top " + count + " * from " + tableName;
+			}
+			else {
+				sqlquery = "Select * from " + tableName;				
+			}
 		}
 //		System.out.println(sqlquery);
 		try {

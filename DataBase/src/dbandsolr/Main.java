@@ -25,10 +25,10 @@ public class Main {
 //		m.testquery();
 //		m.testdelete();
 //		m.testsolrinsert();
-		m.testsolrquery();
+//		m.testsolrquery();
 //		m.testsolrdelete();
 //		m.testsolrquery();
-
+		m.cleardealedtag();
 	}
 
 	public String getnotdealed() {
@@ -47,6 +47,35 @@ public class Main {
 		}		
 		db.release();
 		return path;
+	}
+	
+	public void cleardealedtag()
+	{
+		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
+		Map<String,Object> map = new HashMap<String,Object>();
+		ResultSet rs = db.query(-1,map);
+		int count = 0;
+		String line = "";
+		ArrayList<Integer> ids = new ArrayList<Integer>();
+		try {
+			while(rs.next()) {
+				int id = Integer.parseInt(rs.getString("id"));
+				ids.add(id);
+			}
+			for(int i = 0;i < ids.size();i++) {
+				Map<String,Object> updatemap = new HashMap<String,Object>();
+				updatemap.put("isDeal", 1);
+				db.update(ids.get(i), updatemap);							
+			}
+			if(rs != null) {
+				rs.close();				
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			db.release();
+		}		
 	}
 	
 	public void testsolrinsert() {
@@ -107,10 +136,12 @@ public class Main {
 	
 	public void testquery()
 	{
-		DBHelper db = new DBHelper(ip,basename,table1,username,password);
+		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
+		//DBHelper db = new DBHelper(ip,basename,table1,username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("filetype", "html");
-		ResultSet rs = db.query(-1,map);
+		map.put("isDeal", 1);
+		ResultSet rs = db.query(10,map);
+		
 		int count;
 		String line = "";
 		try {
