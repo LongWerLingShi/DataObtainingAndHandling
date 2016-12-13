@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+	<link href="http://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/my.css">
+	<link rel="SHORTCUT ICON" href="img/tools.ico">
+	<script type="text/javascript" src="js/datahandlerjs.js"></script>
+	<script type="text/javascript" src="js/DataProcessing.js"></script>
+	<script type="text/javascript" src="js/Login.js"></script>	
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Crawler</title>
+</head>
+<body onload="USER.showlogin()">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" style="width:500px;margin-top:100px;"">
+		<div class="modal-content main" style="background:#eee;">
+			<div class="login-form">				
+				<div class="head">
+					<img class='img-responsive' src="img/user.png" alt=""/>
+				</div>
+				<h1>Member Login</h1>				
+				<form>
+					<input id="username" type="text" class="text" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
+					<input id="password" type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">					
+				</form>
+				<div class="matchform">
+					<div>
+						<button id="loginbtn" onClick="USER.login()">LOGIN</button>
+					</div>
+					<p><a href="#" style="color:#333;">Forgot Password ?</a></p>
+				</div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="container nomargin" style="margin-top: 30px;">
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+			<a href="#"><img src="img/tools.ico" alt="ico"  class="img-responsive" style="margin-left: 20px"></a>
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active nomargin"><a href="#">Crawler</a></li>
+				<li class="nomargin"><a href="datahandler.html">DataHandler</a></li>
+			</ul>
+		</div>
+		<div class="col-md-10 column littleborder">
+			<div class="row clearfix"">
+				<div class="col-md-10">
+					<form role="form" style="margin-top: 10px">
+						<div class="form-group">
+							<label for="webaddress">起始网址</label><br/>
+							<input id="webaddress" class="form-control"></input>
+						</div>			
+						<div class="form-group">
+							<label for="keyword">关键词</label><br/>
+							<input class="form-control" name="keyword" id="keyword">
+						</div>
+					</form>												
+				</div>
+				<div class="col-md-2">
+					<button class="btn btn-success" style="width: 100px;margin: 35px 10px 0 0;" onClick="CRAWLER.start()">Start</button>
+					<button class="btn btn-danger" style="width: 100px;margin: 40px 10px 0 0;" onClick="CRAWLER.stop()">Stop</button>
+				</div>
+			</div>
+			<hr/>
+			<h3 class="onetitle">Overview</h3>
+			<table class="table text-muted" style="font-size: 12px">
+				<tbody>
+					<tr>
+						<th width="25%">状态:</th>
+						<th id="crawler_status" width="75%">爬取中...</th>
+					</tr>
+					<tr>
+						<th>开始爬取时间:</th>
+						<th id="crawler_starttime" >3 days ago</th>
+					</tr>
+					<tr>
+						<th>已爬取文件总数:</th>
+						<th id="crawler_filecount" >16222</th>
+					</tr>
+					<tr>
+						<th>爬取速度:</th>
+						<th id="crawler_speed" >10 files/s</th>
+					</tr>
+				</tbody>
+			</table>
+			<h3 class="onetitle">Details</h3>
+			<table class="table text-muted" style="font-size: 12px">
+				<tbody>
+					<tr>
+						<th width="25%">已爬取Html数量:</th>
+						<th id="htmlcount" width="75%">1232</th>
+					</tr>
+					<tr>
+						<th>已爬取Pdf数量:</th>
+						<th id="pdfcount" >123</th>
+					</tr>
+					<tr>
+						<th>已爬取Doc数量:</th>
+						<th id="doccount" >12</th>
+					</tr>
+					<tr>
+						<th>已爬取图片数量:</th>
+						<th id="picturecount" >1</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>

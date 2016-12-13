@@ -8,6 +8,21 @@ function getState()//获取数据处理程序运行状态
 	//$data = json_decode($json_string,true);
 	return $json_string;
 }
+function restart()//开启数据处理程序
+{
+	$json_string = file_get_contents('state.json');
+	$data = json_decode($json_string,true);
+	if($data["openState"] == 'close')
+	{
+		$data1 = array();
+		$data1['allowOpen'] = 'true';
+		$data1['allowClear'] = 'true';
+		$json_string1 = json_encode($data1);
+		file_put_contents('control.json', $json_string1);
+		system('java -jar DataProcess.jar');
+	}
+	return $json_string;
+}
 function start()//开启数据处理程序
 {
 	$json_string = file_get_contents('state.json');
@@ -16,6 +31,7 @@ function start()//开启数据处理程序
 	{
 		$data1 = array();
 		$data1['allowOpen'] = 'true';
+		$data1['allowClear'] = 'false';
 		$json_string1 = json_encode($data1);
 		file_put_contents('control.json', $json_string1);
 		system('java -jar DataProcess.jar');
@@ -30,6 +46,7 @@ function myEnd()//关闭数据处理程序
 	{
 		$data1 = array();
 		$data1['allowOpen'] = 'false';
+		$data1['allowClear'] = 'false';
 		$json_string1 = json_encode($data1);
 		file_put_contents('control.json', $json_string1);
 	}
@@ -48,6 +65,9 @@ case 1:
 	break;
 case 2:
 	$hint = myEnd();
+	break;
+case 3:
+	$hint = restart();
 	break;
 default:
 	;
