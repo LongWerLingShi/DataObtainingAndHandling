@@ -2,7 +2,9 @@ package crowlerTemp;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 import java.util.regex.Pattern;
@@ -35,11 +37,11 @@ public class crawler extends WebCrawler {
     private static final Pattern docPatterns = Pattern.compile(".*(\\.(doc|docx))$");
     private static final Pattern pdfPatterns = Pattern.compile(".*(\\.(doc|docx))$");
     private static final Pattern htmlPatterns = Pattern.compile(".*(\\.(doc|docx))$");
-
+    DBHelper db = new DBHelper("10.2.28.78","XueBa","fileinfo","crawler","aimashi2015");
     private static File storageFolder;
     private static LinkedList<String> crawlDomains;
-
-    public static void configure(LinkedList<String> domain, String storageFolderName) {
+    
+        public static void configure(LinkedList<String> domain, String storageFolderName) {
         crawlDomains =  domain;
 
         storageFolder = new File(storageFolderName);
@@ -90,6 +92,17 @@ public class crawler extends WebCrawler {
             } catch (IOException iox) {
                 logger.error("Failed to write file: " + filename, iox);
             }
+            
+            //try to write to DB
+            
+    		Map<String,Object> map = new HashMap<String,Object>();
+    		map.put("filetype", "html");
+    		map.put("filepath", filename);
+    		map.put("url", url);
+    		map.put("encode", "utf-8");
+    		map.put("isDeal", "0");
+    		db.insertline(map);
+    		//db.release();
             
             System.out.println("Text length: " + text.length());
             System.out.println("Html length: " + html.length());
