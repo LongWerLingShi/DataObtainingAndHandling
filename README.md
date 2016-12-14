@@ -77,7 +77,7 @@ class DBHelper
    */
   public DBHelper(String ip,String basename, String tableName, String username,String password);
 
-/*
+  /*
    * 查询方法
    * 根据传入的属性值查询，返回查询结果
    * @prama:一个保存着属性名(String)，属性值(Object)的map,count为返回的最大条数，小于等于0时视为返回全部。
@@ -92,6 +92,13 @@ class DBHelper
    * @return：修改是否成功，成功为1，失败为0
    */
   public int update(int id,Map<String,Object> map);
+
+  /*
+   * 更新所有表项数据
+   * @prama:一个保存着属性名(String)，属性值(Object)的map
+   * @return：修改是否成功，成功为1，失败为0
+   */
+  public int updateAll(Map<String,Object> map);
 
   /*
    * 插入新的一行
@@ -119,7 +126,7 @@ class DBHelper
 
 /*
  * solr操作类，可以对solr进行查找，插入，删除操作
- *
+ * 需要导入Database分支下jar文件夹中所有的jar包
  */
 class SolrHelper
 {
@@ -155,7 +162,7 @@ class SolrHelper
   public void delete(String id);
 }
 ```
-于2016/11/20
+于2016/12/15
 
 
 ###杨金键
