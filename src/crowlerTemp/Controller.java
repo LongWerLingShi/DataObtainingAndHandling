@@ -22,7 +22,8 @@ public class Controller {
 	private CrawlConfig config; //crawler 配置
 	private PageFetcher pageFetcher; //爬取文件的
 	RobotstxtConfig robotstxtConfig; //robottxt配置
-	RobotstxtServer robotstxtServer; //检测robot协议相关
+	//RobotstxtServer robotstxtServer; //检测robot协议相关
+	RobotstxtServer_son robotstxtServer;
 	private LinkedList<String> Seeds; //当前种子网址
 	
 	public Controller(){
@@ -31,7 +32,9 @@ public class Controller {
         config.setIncludeBinaryContentInCrawling(true);
         pageFetcher = new PageFetcher(config);
         robotstxtConfig = new RobotstxtConfig();
-        robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher);
+        //robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher);
+        robotstxtServer = new RobotstxtServer_son(robotstxtConfig, pageFetcher);
+
         Seeds = new LinkedList<String>();
 	}
 	CrawlController controller;
@@ -75,7 +78,10 @@ public class Controller {
 					while(it.hasNext()){
 						this.controller.addSeed(it.next());
 					}
-					controller.start(crawler.class, aim);
+					//controller.start(crawler.class, aim);
+					crawler.configure(Seeds, "D:\\storage");
+					controller.startNonBlocking(crawler.class, aim);
+
 				}
 			}
 			this.curNumOfCrawler = aim;

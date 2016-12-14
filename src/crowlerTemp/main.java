@@ -13,10 +13,13 @@ public class main {
 	private static final Logger logger = LoggerFactory.getLogger(main.class);
 	
     public static void main(String[] args) throws Exception {
-        
+    	
         Controller cont = new Controller();
-        cont.addSeed("http://uci.edu/");
+        //cont.addSeed("http://uci.edu/");
+        cont.addSeed("http://news.sohu.com/");
         cont.setNumOfCrawler(3);
-        
+        Thread.sleep(10000);
+        //logger.info("-------------------------------STOP");
+
     }
 }
