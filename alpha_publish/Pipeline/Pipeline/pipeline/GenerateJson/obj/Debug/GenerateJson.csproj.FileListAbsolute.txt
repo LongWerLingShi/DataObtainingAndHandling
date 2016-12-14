@@ -1,0 +1,16 @@
+C:\Users\shuaige\Desktop\新建文件夹\Pipeline\Pipeline\pipeline\GenerateJson\bin\Debug\GenerateJson.exe.config
+C:\Users\shuaige\Desktop\新建文件夹\Pipeline\Pipeline\pipeline\GenerateJson\bin\Debug\GenerateJson.exe
+C:\Users\shuaige\Desktop\新建文件夹\Pipeline\Pipeline\pipeline\GenerateJson\bin\Debug\GenerateJson.pdb
+C:\Users\shuaige\Desktop\新建文件夹\Pipeline\Pipeline\pipeline\GenerateJson\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shuaige\Desktop\新建文件夹\Pipeline\Pipeline\pipeline\GenerateJson\obj\Debug\GenerateJson.csprojResolveAssemblyReference.cache
+C:\Users\shuaige\Desktop\新建文件夹\Pipeline\Pipeline\pipeline\GenerateJson\obj\Debug\GenerateJson.csproj.ResolveComReference.cache
+C:\Users\shuaige\Desktop\新建文件夹\Pipeline\Pipeline\pipeline\GenerateJson\obj\Debug\GenerateJson.exe
+C:\Users\shuaige\Desktop\新建文件夹\Pipeline\Pipeline\pipeline\GenerateJson\obj\Debug\GenerateJson.pdb
+C:\Users\Pipeline\Desktop\新建文件夹\Pipeline4\Pipeline\Pipeline\pipeline\GenerateJson\bin\Debug\GenerateJson.exe.config
+C:\Users\Pipeline\Desktop\新建文件夹\Pipeline4\Pipeline\Pipeline\pipeline\GenerateJson\bin\Debug\GenerateJson.exe
+C:\Users\Pipeline\Desktop\新建文件夹\Pipeline4\Pipeline\Pipeline\pipeline\GenerateJson\bin\Debug\GenerateJson.pdb
+C:\Users\Pipeline\Desktop\新建文件夹\Pipeline4\Pipeline\Pipeline\pipeline\GenerateJson\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Pipeline\Desktop\新建文件夹\Pipeline4\Pipeline\Pipeline\pipeline\GenerateJson\obj\Debug\GenerateJson.csprojResolveAssemblyReference.cache
+C:\Users\Pipeline\Desktop\新建文件夹\Pipeline4\Pipeline\Pipeline\pipeline\GenerateJson\obj\Debug\GenerateJson.csproj.ResolveComReference.cache
+C:\Users\Pipeline\Desktop\新建文件夹\Pipeline4\Pipeline\Pipeline\pipeline\GenerateJson\obj\Debug\GenerateJson.exe
+C:\Users\Pipeline\Desktop\新建文件夹\Pipeline4\Pipeline\Pipeline\pipeline\GenerateJson\obj\Debug\GenerateJson.pdb
