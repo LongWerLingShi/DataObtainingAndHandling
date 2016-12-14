@@ -29,6 +29,7 @@ public class Main {
 //		m.testsolrdelete();
 //		m.testsolrquery();
 		m.cleardealedtag();
+//		m.queryhtml();
 	}
 
 	public String getnotdealed() {
@@ -47,36 +48,45 @@ public class Main {
 		}		
 		db.release();
 		return path;
-	}
+	}	
 	
 	public void cleardealedtag()
 	{
 		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-		ResultSet rs = db.query(-1,map);
-		int count = 0;
-		String line = "";
-		ArrayList<Integer> ids = new ArrayList<Integer>();
-		try {
-			while(rs.next()) {
-				int id = Integer.parseInt(rs.getString("id"));
-				ids.add(id);
-			}
-			for(int i = 0;i < ids.size();i++) {
-				Map<String,Object> updatemap = new HashMap<String,Object>();
-				updatemap.put("isDeal", 1);
-				db.update(ids.get(i), updatemap);							
-			}
-			if(rs != null) {
-				rs.close();				
-			}
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} finally {
-			db.release();
-		}		
+		map.put("isDeal", 1);
+		db.updateAll(map);
+		db.release();
 	}
+	
+//	public void cleardealedtag()
+//	{
+//		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
+//		Map<String,Object> map = new HashMap<String,Object>();
+//		ResultSet rs = db.query(-1,map);
+//		int count = 0;
+//		String line = "";
+//		ArrayList<Integer> ids = new ArrayList<Integer>();
+//		try {
+//			while(rs.next()) {
+//				int id = Integer.parseInt(rs.getString("id"));
+//				ids.add(id);
+//			}
+//			for(int i = 0;i < ids.size();i++) {
+//				Map<String,Object> updatemap = new HashMap<String,Object>();
+//				updatemap.put("isDeal", 1);
+//				db.update(ids.get(i), updatemap);							
+//			}
+//			if(rs != null) {
+//				rs.close();				
+//			}
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} finally {
+//			db.release();
+//		}		
+//	}
 	
 	public void testsolrinsert() {
 		SolrHelper solr = new SolrHelper(solrip,port);
@@ -131,6 +141,37 @@ public class Main {
 		map.put("encode", "utf-8");
 		map.put("isDeal", "0");
 		db.insertline(map);
+		db.release();
+	}
+	
+	public void queryhtml()
+	{
+		DBHelper db = new DBHelper(ip,"XueBa","fileinfo",username,password);
+		Map<String,Object> map = new HashMap<String,Object>();
+		//map.put("isDeal", 1);
+		map.put("filetype", "html");//filetype = 'html'
+		ResultSet rs = db.query(-1, map);//-1说明返回所有满足的条数，如果是正数n说明返回前n条
+		int count;
+		try {
+			rs.last();//指向最后一条
+			count = rs.getRow();//得到行数
+			rs.first();//指向第一条(如果还要用rs的话)
+			System.out.println(count + " html");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		map.put("isDeal", 1);//filetype = 'html' and isDeal = 1
+		rs = db.query(-1, map);
+		try {
+			rs.last();
+			count = rs.getRow();
+			rs.first();
+			System.out.println(count + " html isDeal");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		db.release();
 	}
 	

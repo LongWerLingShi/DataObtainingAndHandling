@@ -1,5 +1,7 @@
 package dbandsolr;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 /*
@@ -119,6 +121,45 @@ public class DBHelper {
 			}
 			else {
 				sqlupdate = "update " + tableName + " set " + attribute + " = " + value.toString() + " where id = " + id;				
+			}
+//			System.out.println(sqlupdate);
+			try {
+				num = sta.executeUpdate(sqlupdate);
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		try {
+			conn.commit();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return num;
+	}
+	
+	/*
+	 * 更新所有表项数据
+	 * @prama:一个保存着属性名(String)，属性值(Object)的map
+	 * @return：修改是否成功，成功为1，失败为0
+	 */
+	public int updateAll(Map<String,Object> map)
+	{
+		String attribute;
+		Object value;
+		String sqlupdate = "";
+		int num = 0;
+		if(map == null) {			
+			return 0;
+		}
+		for(Map.Entry<String, Object> pair : map.entrySet()) {
+			attribute = pair.getKey();
+			value = pair.getValue();
+			if(value instanceof String) {
+				sqlupdate = "update " + tableName + " set " + attribute + " = '" + value.toString();
+			}
+			else {
+				sqlupdate = "update " + tableName + " set " + attribute + " = " + value.toString();				
 			}
 //			System.out.println(sqlupdate);
 			try {
