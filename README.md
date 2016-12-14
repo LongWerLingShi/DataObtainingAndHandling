@@ -164,9 +164,67 @@ class SolrHelper
 *
 
 ###金豪
-* 
-* 
+```
+/*
+ * 爬虫管理类，初始化设置线程数即可开始工作，自动保存到数据库里面
+ */
+public class Controller {
+	/*
+	 * 返回当前所设置的爬虫线程数量
+	 */
+	public int getCurNumOfCrawler()
+	/*
+	 * 设置当前爬虫的线程数量, 如果成功返回true，如果有问题 返回false
+	 * 限制数量为0-100之间的整数
+	 * 如果要关闭爬虫 就设置为0即可
+	 * 重新启动目前还有一些问题 建议重新建立一个对象 进度可以保存
+	 */
+	public boolean setNumOfCrawler(int aim) throws Exception
+	/*
+	 * 返回爬虫开始的时间
+	 */
+	public Calendar getStartTime()
+	/*
+	 * 返回爬取的html数量
+	 */
+	public int getHtmlNum()
+	/*
+	 * 返回爬取的Pdf数量
+	 */
+	public int getPdfNum()/*
+	 * 返回爬取的doc数量
+	 */
+	public int getDocNum()
+	/*
+	 * 返回爬取的image数量
+	 */
+	public int getImageNum()
+	/*
+	 * 增加种子网址
+	 */
+	public void  addSeed(String seed)
+	/*
+	 * 删除种子网址 删除成功返回true，删除失败false
+	 */
+	public boolean  delSeed(String seed)
+	/*
+	 * 删除种子网址 删除成功返回true，删除失败false
+	 */
+	public LinkedList<String> getSeeds()
+	/*
+	 * 增加KeyWord
+	 */
+	public void  addKeyWord(String seed)
+	/*
+	 * 删除KeyWord 删除成功返回true，删除失败false
+	 */
+	public boolean  delKeyWord(String keyWord)
+	/*
+	 * 删除KeyWord 删除成功返回true，删除失败false
+	 */
+	public List<String> getKeyWord()
+```
 =======
 
 
->>>>>>> refs/remotes/origin/word
+
