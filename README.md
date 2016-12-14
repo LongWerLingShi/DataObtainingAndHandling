@@ -76,6 +76,13 @@ class DBHelper
   public int update(int id,Map<String,Object> map);
 
   /*
+   * 更新所有表项数据
+   * @prama:一个保存着属性名(String)，属性值(Object)的map
+   * @return：修改是否成功，成功为1，失败为0
+   */
+  public int updateAll(Map<String,Object> map);
+
+  /*
    * 插入新的一行
    * 新建一行，并且根据map提供的属性名和属性值在该行的相应属性栏填入数据
    * @prama:一个保存着属性名(String)，属性值(Object)的map
@@ -101,7 +108,7 @@ class DBHelper
 
 /*
  * solr操作类，可以对solr进行查找，插入，删除操作
- *
+ * 需要导入Database分支下jar文件夹中所有的jar包
  */
 class SolrHelper
 {
