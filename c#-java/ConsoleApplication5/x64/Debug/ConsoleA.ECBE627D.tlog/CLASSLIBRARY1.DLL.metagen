@@ -1,0 +1,19 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ClassLibrary1, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly HtmlAgilityPack, Version=1.3.9.1, Culture=neutral, PublicKeyToken=b52cdeb733cb24d7: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ClassLibrary1.process: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getAuthor(): PrivateScope, Public, HideBySig
+    getDate(): PrivateScope, Public, HideBySig
+    getTitle(): PrivateScope, Public, HideBySig
+    getQuestion(): PrivateScope, Public, HideBySig
+    getAnswer(): PrivateScope, Public, HideBySig
+    testconnect(): PrivateScope, Public, HideBySig

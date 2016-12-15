@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3274: 未能解析主引用“C:\Users\杨金键\Documents\Visual Studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll”，因为它是针对“.NETFramework,Version=v4.6.1”框架生成的。该框架版本高于当前目标框架“.NETFramework,Version=v4.0”。
+  CallCS.cpp
+c:\users\杨金键\documents\visual studio 2015\projects\consoleapplication5\consoleapplication5\jni.h(868): warning C4793: “JNIEnv_::NewObject”: 编译为本机的函数:
+  	/clr 下不支持 varargs
+c:\users\杨金键\documents\visual studio 2015\projects\consoleapplication5\consoleapplication5\jni.h(871): warning C4793: “JNIEnv_::NewObject”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+c:\users\杨金键\documents\visual studio 2015\projects\consoleapplication5\consoleapplication5\jni.h(873): warning C4793: “JNIEnv_::NewObject”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+c:\users\杨金键\documents\visual studio 2015\projects\consoleapplication5\consoleapplication5\jni.h(897): warning C4793: “JNIEnv_::CallObjectMethod”: 编译为本机的函数:
+  	/clr 下不支持 varargs
+c:\users\杨金键\documents\visual studio 2015\projects\consoleapplication5\consoleapplication5\jni.h(900): warning C4793: “JNIEnv_::CallObjectMethod”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+c:\users\杨金键\documents\visual studio 2015\projects\consoleapplication5\consoleapplication5\jni.h(902): warning C4793: “JNIEnv_::CallObjectMethod”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+  dllmain.cpp
+    正在创建库 C:\Users\杨金键\Documents\Visual Studio 2015\Projects\ConsoleApplication5\Debug\ConsoleApplication5.lib 和对象 C:\Users\杨金键\Documents\Visual Studio 2015\Projects\ConsoleApplication5\Debug\ConsoleApplication5.exp
+CallCS.obj : warning LNK4248: 无法解析 typeref 标记(0100000D)(为“_jmethodID”)；映像可能无法运行
+  ConsoleApplication5.vcxproj -> C:\Users\杨金键\Documents\Visual Studio 2015\Projects\ConsoleApplication5\Debug\ConsoleApplication5.dll
+  ConsoleApplication5.vcxproj -> C:\Users\杨金键\Documents\Visual Studio 2015\Projects\ConsoleApplication5\Debug\ConsoleApplication5.pdb (Full PDB)

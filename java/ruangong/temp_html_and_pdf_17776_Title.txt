@@ -1,0 +1,1 @@
+﻿jni怎么将jstring转换为string_百度知道

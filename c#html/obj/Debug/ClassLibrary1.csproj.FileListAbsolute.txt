@@ -1,0 +1,7 @@
+c:\users\杨金键\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+c:\users\杨金键\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+c:\users\杨金键\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\HtmlAgilityPack.dll
+c:\users\杨金键\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+c:\users\杨金键\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\杨金键\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\杨金键\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\itextsharp.dll
