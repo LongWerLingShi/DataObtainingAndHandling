@@ -1,0 +1,19 @@
+{
+	"state":"working",
+	"startTime":"10",
+	"fileNumber":"10",
+	"htmlNumber":"10",
+	"pdfNumber":"10",
+	"docNumber":"10",
+	"pictureNumber":"10",
+	"web":
+	[
+		{"URL":"NULL"},
+		{"URL":"NULL"}
+	],
+	"keyWord":
+	[
+		{"word":"AAAA"},
+		{"word":"AAAA"}
+	]
+}

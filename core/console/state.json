@@ -1,0 +1,24 @@
+{
+	"openState":"close",
+	"threadNumber":"5",
+	"thread":
+	[
+		{"URL":"null","schedule":"Waiting"},
+		{"URL":"null","schedule":"Waiting"},
+		{"URL":"null","schedule":"Waiting"},
+		{"URL":"null","schedule":"Waiting"},
+		{"URL":"null","schedule":"Waiting"}
+	],
+	"htmlTitle":"211",
+	"htmlHaveDone":"0",
+	"pdfTitle":"0",
+	"pdfHaveDone":"0",
+	"wordTitle":"0",
+	"wordHaveDone":"0",
+	"pictureTitle":"0",
+	"pictureHaveDone":"0",
+	"fileTitle":"211",
+	"fileHaveDone":"0",
+	"fileHandleFail":"0",
+	"handleTime":"2016-12-20"
+}

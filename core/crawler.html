@@ -7,12 +7,16 @@
 	<link href="http://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/my.css">
 	<link rel="SHORTCUT ICON" href="img/tools.ico">
-	<script type="text/javascript" src="js/datahandlerjs.js"></script>
+	<script type="text/javascript" src="js/crawlerjs.js"></script>
 	<script type="text/javascript" src="js/DataProcessing.js"></script>
 	<script type="text/javascript" src="js/Login.js"></script>	
 	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>Crawler</title>
+	<script type="text/javascript">
+		window.onload=LoadWS();
+		setInterval("MyAutoRun2()",300); 
+	</script>
 </head>
 <body onload="USER.showlogin()">
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -43,11 +47,11 @@
 			<a href="#"><img src="img/tools.ico" alt="ico"  class="img-responsive" style="margin-left: 20px"></a>
 			<ul class="nav nav-pills nav-stacked">
 				<li class="active nomargin"><a href="#">Crawler</a></li>
-				<li class="nomargin"><a href="datahandler.html">DataHandler</a></li>
+				<li class="nomargin"><a onClick="USER.gotoDataHandler()">DataHandler</a></li>
 			</ul>
 		</div>
 		<div class="col-md-10 column littleborder">
-			<div class="row clearfix"">
+			<div class="row clearfix">
 				<div class="col-md-10">
 					<form role="form" style="margin-top: 10px">
 						<div class="form-group">
@@ -108,6 +112,35 @@
 					</tr>
 				</tbody>
 			</table>
+			<h3 class="onetitle">Web</h3>
+			<ul id = "ulList">
+			</ul>
+			<textarea id = "textList" style="display:none;">
+				<li>
+					<div class="row clearfix">
+						<div class="col-md-10">
+							<h5>$URL$</h5>
+						</div>
+						<div class="col-md-2">
+							<button class="btn btn-success" style="margin: 5px 0 5px 0;padding:0; border-radius:100px;font-size:10px;width:25px;height:25px" onClick="CRAWLER.del('$id$')">-</button>
+						</div>
+					</div>
+				</li>
+			</textarea>
+			<ul id = "ulList2">
+			</ul>
+			<textarea id = "textList2" style="display:none;">
+				<li>
+					<div class="row clearfix">
+						<div class="col-md-10 column text">
+							<h5>$word$</h5>
+						<div>
+						<div class="col-md-2 column text">
+							<button class="btn btn-success" style="width: 100px;margin: 35px 10px 0 0;font-size:20px;font-weight:bold;" onClick="CRAWLER.del2('$id$')">-</button>
+						</div>
+					</div>
+				</li>
+			</textarea>
 		</div>
 	</div>
 </div>

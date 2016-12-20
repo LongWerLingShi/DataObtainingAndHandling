@@ -13,7 +13,7 @@
 	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
-		setInterval("MyAutoRun()",1000); 
+		setInterval("MyAutoRun()",300); 
 	</script>
 	<title>DataHandler</title>
 </head>
@@ -46,7 +46,7 @@
 		<div class="col-md-2 column">
 			<a href="#"><img src="img/tools.ico" alt="ico"  class="img-responsive" style="margin-left: 20px"></a>
 			<ul class="nav nav-pills nav-stacked">
-				<li class="nomargin"><a href="crawler.html">Crawler</a></li>
+				<li class="nomargin"><a onClick = "USER.gotoCrawler()">Crawler</a></li>
 				<li class="active nomargin"><a href="#">DataHandler</a></li>
 			</ul>
 		</div>
@@ -111,6 +111,22 @@
 					</div>
 				</div>
 			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread1_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread1_progress"></h6>
+				</div>
+			</div>	
 			<div class="row clearfix">
 				<div class="col-md-2 column textprogress">
 					<h4 class="text-info text-center">
@@ -128,6 +144,22 @@
 					</div>
 				</div>
 			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread2_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread2_progress"></h6>
+				</div>
+			</div>	
 			<div class="row clearfix">
 				<div class="col-md-2 column textprogress">
 					<h4 class="text-info text-center">
@@ -145,6 +177,22 @@
 					</div>
 				</div>
 			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread3_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread3_progress"></h6>
+				</div>
+			</div>	
 			<div class="row clearfix">
 				<div class="col-md-2 column textprogress">
 					<h4 class="text-info text-center">
@@ -162,6 +210,22 @@
 					</div>
 				</div>
 			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread4_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread4_progress"></h6>
+				</div>
+			</div>	
 			<div class="row clearfix">
 				<div class="col-md-2 column textprogress">
 					<h4 class="text-info text-center">
@@ -179,6 +243,22 @@
 					</div>
 				</div>
 			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread5_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread5_progress"></h6>
+				</div>
+			</div>	
 			<h3 class="onetitle">Details</h3>
 			<div class="row clearfix">
 				<div class="col-md-2 column textprogress">
