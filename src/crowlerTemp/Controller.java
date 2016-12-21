@@ -57,7 +57,9 @@ public class Controller {
 				if(controller == null){
 					//none
 				}else{
+					//crawler.db.release();
 					controller.shutdown();
+					controller.waitUntilFinish();
 				}
 			}else{
 				//start
@@ -67,7 +69,9 @@ public class Controller {
 					if(controller == null){
 						//none
 					}else{
+						//crawler.db.release();
 						controller.shutdown();
+						controller.waitUntilFinish();
 					}
 					startTime = Calendar.getInstance();
 					//先停止后重新开始
@@ -99,25 +103,28 @@ public class Controller {
 	/*
 	 * 返回爬取的html数量
 	 */
+	public int getTotNum(){
+		return crawler.countHtml+crawler.countDoc+crawler.countImage+crawler.countPdf;
+	}
 	public int getHtmlNum(){
-		return 0;
+		return crawler.countHtml;
 	}
 	/*
 	 * 返回爬取的Pdf数量
 	 */
 	public int getPdfNum(){
-		return 0;
+		return crawler.countPdf;
 	}/*
 	 * 返回爬取的doc数量
 	 */
 	public int getDocNum(){
-		return 0;
+		return crawler.countDoc;
 	}
 	/*
 	 * 返回爬取的image数量
 	 */
 	public int getImageNum(){
-		return 0;
+		return crawler.countImage;
 	}
 	/*
 	 * 增加种子网址

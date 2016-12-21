@@ -14,12 +14,13 @@ public class main {
 	
     public static void main(String[] args) throws Exception {
     	
-        Controller cont = new Controller();
+        //Controller cont = new Controller();
         //cont.addSeed("http://uci.edu/");
-        cont.addSeed("http://news.sohu.com/");
-        cont.setNumOfCrawler(3);
-        Thread.sleep(10000);
+        ///cont.addSeed("http://news.sohu.com/");
+        //cont.setNumOfCrawler(3);
+        //Thread.sleep(10000);
         //logger.info("-------------------------------STOP");
-
+    	FileListener fl = new FileListener();
+    	fl.start();
     }
 }

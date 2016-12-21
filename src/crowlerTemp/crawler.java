@@ -35,15 +35,21 @@ public class crawler extends WebCrawler {
 
     private static final Pattern imgPatterns = Pattern.compile(".*(\\.(bmp|gif|jpe?g|png|tiff?))$");
     private static final Pattern docPatterns = Pattern.compile(".*(\\.(doc|docx))$");
-    private static final Pattern pdfPatterns = Pattern.compile(".*(\\.(doc|docx))$");
-    private static final Pattern htmlPatterns = Pattern.compile(".*(\\.(doc|docx))$");
-    DBHelper db = new DBHelper("10.2.28.78","XueBa","fileinfo","crawler","aimashi2015");
+    private static final Pattern pdfPatterns = Pattern.compile(".*(\\.(pdf))$");
+    public static int countHtml=0;
+    public static int countPdf=0;
+    public static int countDoc=0;
+    public static int countImage=0;
+    
+    //private static final Pattern htmlPatterns = Pattern.compile(".*(\\.(doc|docx))$");
+    public static DBHelper db = new DBHelper("10.2.28.78","XueBa","fileinfo","crawler","aimashi2015");
+    
     private static File storageFolder;
     private static LinkedList<String> crawlDomains;
     
-        public static void configure(LinkedList<String> domain, String storageFolderName) {
+    public static void configure(LinkedList<String> domain, String storageFolderName) {
         crawlDomains =  domain;
-
+        
         storageFolder = new File(storageFolderName);
         if (!storageFolder.exists()) {
             storageFolder.mkdirs();
@@ -57,13 +63,16 @@ public class crawler extends WebCrawler {
         if (filters.matcher(href).matches()) {
             return false;
         }
-
         if (imgPatterns.matcher(href).matches()) {
             return true;
         }
         if(docPatterns.matcher(href).matches()){
         	return true;
         }
+        if(pdfPatterns.matcher(href).matches()){
+        	return true;
+        }
+        
         for (String domain : crawlDomains) {
             if (href.startsWith(domain)) {
                 return true;
@@ -78,6 +87,7 @@ public class crawler extends WebCrawler {
         logger.info("Visting! : "+url);
         
         if (page.getParseData() instanceof HtmlParseData) {
+        	this.countHtml++;
             HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
             String text = htmlParseData.getText();
             String html = htmlParseData.getHtml();
@@ -111,10 +121,21 @@ public class crawler extends WebCrawler {
         
         
         // We are only interested in processing images which are bigger than 10k
-        if ((!imgPatterns.matcher(url).matches() &&!docPatterns.matcher(url).matches()) ||
-            !((page.getParseData() instanceof BinaryParseData) ||
-              (page.getContentData().length < (10 * 1024)))) {
-            return;
+        Map<String,Object> map = new HashMap<String,Object>();
+		
+        if(imgPatterns.matcher(url).matches() && page.getContentData().length >= (10 * 1024)){
+        	this.countImage++;
+        	map.put("filetype", "image");
+        }
+        else if(docPatterns.matcher(url).matches()){
+        	this.countDoc++;
+        	map.put("filetype", "doc");
+        }
+        else if(pdfPatterns.matcher(url).matches()){
+        	this.countPdf++;
+        	map.put("filetype", "pdf");
+        }else{
+        	return;
         }
 
         // get a unique name for storing this image
@@ -130,5 +151,10 @@ public class crawler extends WebCrawler {
         } catch (IOException iox) {
             logger.error("Failed to write file: " + filename, iox);
         }
+        map.put("filepath", filename);
+		map.put("url", url);
+		map.put("encode", "utf-8");
+		map.put("isDeal", "0");
+		db.insertline(map);
     }
 }
