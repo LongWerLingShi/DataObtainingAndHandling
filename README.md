@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 #注意！
 ##在代码协作中， 尤其是在遇到接口方面的问题需要与调用者或者被调用者协商的情况下，请将需要协商的内容写在下面
 ###崔正龙
 ```
+=======
+# DataObtainingAndHandling
+
+>>>>>>> refs/remotes/origin/word
 去噪模块接口word部分：
 
 Public string denoiseWord(string path);
@@ -12,6 +17,10 @@ Effect:word文件降噪，返回降噪后的文本
 
 Modified:无
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/word
 提取关键词模块：
 
 Public string getKey(string doc);
@@ -22,6 +31,10 @@ Effect:提取关键词，并且翻译关键词，将文本中提取到的关键�
 
 Modified:无
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/word
 Private string segmentWord(string doc);
 
 Require:传入降噪后的文本
@@ -30,6 +43,10 @@ Effect:对文本分词，并且将根据分词后的结果提取关键词
 
 Modified:无
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/word
 Private string translate(string key);
 
 Require:传入提取到的关键词
@@ -37,6 +54,7 @@ Require:传入提取到的关键词
 Effect:翻译关键词，将关键词和翻译后的文本一起返回
 
 Modified:无
+<<<<<<< HEAD
 ```
 ###谷大鑫
 * 
@@ -135,18 +153,23 @@ class SolrHelper
    *插入方法
    *@prama：要传导solr的属性（暂定）
    */
-  public void insert(String id,String title,String links,String date,String content,String author);
+  public void insert(String id,String title,String links,String date,String content,String[] keywords, String author,String doc_type,String question_content,String[] answer_content);
 
   /*
    * 删除方法
    * @prama:要删除的doc的id
    */
   public void delete(String id);
+
+  /*
+   * 提交改动
+   * insert,delete操作结束后要commit才会生效
+   */
+  public void commitchange();
 }
 ```
+于2016/12/15
 
-* 
-*
 
 ###杨金键
 *
@@ -154,5 +177,67 @@ class SolrHelper
 *
 
 ###金豪
-* 
-* 
+```
+/*
+ * 爬虫管理类，初始化设置线程数即可开始工作，自动保存到数据库里面
+ */
+public class Controller {
+  /*
+   * 返回当前所设置的爬虫线程数量
+   */
+  public int getCurNumOfCrawler()
+  /*
+   * 设置当前爬虫的线程数量, 如果成功返回true，如果有问题 返回false
+   * 限制数量为0-100之间的整数
+   * 如果要关闭爬虫 就设置为0即可
+   * 重新启动目前还有一些问题 建议重新建立一个对象 进度可以保存
+   */
+  public boolean setNumOfCrawler(int aim) throws Exception
+  /*
+   * 返回爬虫开始的时间
+   */
+  public Calendar getStartTime()
+  /*
+   * 返回爬取的html数量
+   */
+  public int getHtmlNum()
+  /*
+   * 返回爬取的Pdf数量
+   */
+  public int getPdfNum()/*
+   * 返回爬取的doc数量
+   */
+  public int getDocNum()
+  /*
+   * 返回爬取的image数量
+   */
+  public int getImageNum()
+  /*
+   * 增加种子网址
+   */
+  public void  addSeed(String seed)
+  /*
+   * 删除种子网址 删除成功返回true，删除失败false
+   */
+  public boolean  delSeed(String seed)
+  /*
+   * 删除种子网址 删除成功返回true，删除失败false
+   */
+  public LinkedList<String> getSeeds()
+  /*
+   * 增加KeyWord
+   */
+  public void  addKeyWord(String seed)
+  /*
+   * 删除KeyWord 删除成功返回true，删除失败false
+   */
+  public boolean  delKeyWord(String keyWord)
+  /*
+   * 删除KeyWord 删除成功返回true，删除失败false
+   */
+  public List<String> getKeyWord()
+```
+=======
+
+
+
