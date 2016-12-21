@@ -28,7 +28,9 @@ public class Main {
 //		m.testsolrquery();
 //		m.testsolrdelete();
 //		m.testsolrquery();
-		m.cleardealedtag();
+//		m.cleardealedtag();
+//		m.testinsert();
+		m.testsolrinsert();
 //		m.queryhtml();
 	}
 
@@ -59,43 +61,15 @@ public class Main {
 		db.release();
 	}
 	
-//	public void cleardealedtag()
-//	{
-//		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
-//		Map<String,Object> map = new HashMap<String,Object>();
-//		ResultSet rs = db.query(-1,map);
-//		int count = 0;
-//		String line = "";
-//		ArrayList<Integer> ids = new ArrayList<Integer>();
-//		try {
-//			while(rs.next()) {
-//				int id = Integer.parseInt(rs.getString("id"));
-//				ids.add(id);
-//			}
-//			for(int i = 0;i < ids.size();i++) {
-//				Map<String,Object> updatemap = new HashMap<String,Object>();
-//				updatemap.put("isDeal", 1);
-//				db.update(ids.get(i), updatemap);							
-//			}
-//			if(rs != null) {
-//				rs.close();				
-//			}
-//		} catch (SQLException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		} finally {
-//			db.release();
-//		}		
-//	}
-	
 	public void testsolrinsert() {
 		SolrHelper solr = new SolrHelper(solrip,port);
-		Map<String, Object> map = new HashMap();
-		map.put("wid", 1);
-		map.put("id", "webtest");
-		map.put("web_title", "baidu");
-		solr.insert(map);
-		solr.insert("webid", "title", "links", "date", "content", "author");
+//		ArrayList<String> answer = new ArrayList<String>();
+//		answer.add("answer1");
+//		answer.add("answer2");
+//		ArrayList<String> keywords = new ArrayList<String>();
+//		keywords.add("keyword1");
+//		keywords.add("keyword2");
+		solr.insert("webid", "title", "links", "date", "content", null, "author", "doc_type", "question_content", null);
 	}
 	
 	public void testsolrdelete() {
@@ -133,13 +107,19 @@ public class Main {
 	
 	public void testinsert()
 	{
-		DBHelper db = new DBHelper(ip,basename,table1,username,password);
+//		DBHelper db = new DBHelper(ip,basename,table1,username,password);
+//		Map<String,Object> map = new HashMap<String,Object>();
+//		map.put("filetype", "html");
+//		map.put("filepath", "d:\\1.html");
+//		map.put("url", "www.baidu.com");
+//		map.put("encode", "utf-8");
+//		map.put("isDeal", "0");
+//		db.insertline(map);
+		DBHelper db = new DBHelper(ip,"Crawler","Question",username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("filetype", "html");
-		map.put("filepath", "d:\\1.html");
-		map.put("url", "www.baidu.com");
-		map.put("encode", "utf-8");
-		map.put("isDeal", "0");
+		map.put("id", 10);
+		map.put("title", "QI");
+		map.put("views", "1");
 		db.insertline(map);
 		db.release();
 	}
