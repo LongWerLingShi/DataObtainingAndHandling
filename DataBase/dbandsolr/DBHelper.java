@@ -1,5 +1,7 @@
 package dbandsolr;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 /*
@@ -45,35 +47,48 @@ public class DBHelper {
 	/*
 	 * 查询方法
 	 * 根据传入的属性值查询，返回查询结果
-	 * @prama:一个保存着属性名(String)，属性值(Object)的map
+	 * @prama:一个保存着属性名(String)，属性值(Object)的map,count为返回的最大条数，小于等于0时视为返回全部。
 	 * @return:保存着查询结果的ResultSet，类似一个表，具体用法可以看我的例子或者查看java api(java.sql.ResultSet)
 	 */
-	public ResultSet query(Map<String, Object> map) {
+	public ResultSet query(int count, Map<String, Object> map) {
 		String attribute;
 		Object value;
 		String valuestr = "";
 		ResultSet rs = null;
 		int num = 0;
-		String sqlquery = "Select * from " + tableName + " where ";
-		for(Map.Entry<String, Object> pair : map.entrySet()) {
-			attribute = pair.getKey();
-			value = pair.getValue();
-			if(value instanceof String) {
-				valuestr = '\'' + value.toString() + '\'';
+		String sqlquery;
+		if(count > 0) {
+			sqlquery = "Select top " + count + " * from " + tableName + " where ";
+		}
+		else {
+			sqlquery = "Select * from " + tableName + " where ";
+		}		
+		if(map != null) {			
+			for(Map.Entry<String, Object> pair : map.entrySet()) {
+				attribute = pair.getKey();
+				value = pair.getValue();
+				if(value instanceof String) {
+					valuestr = '\'' + value.toString() + '\'';
+				}
+				else {
+					valuestr = value.toString();
+				}
+				if(num == 0) {
+					sqlquery += attribute + " = " + valuestr;
+				}
+				else {
+					sqlquery += " and " + attribute + " = " + valuestr;
+				}
+				num++;
 			}
-			else {
-				valuestr = value.toString();
-			}
-			if(num == 0) {
-				sqlquery += attribute + " = " + valuestr;
-			}
-			else {
-				sqlquery += " and " + attribute + " = " + valuestr;
-			}
-			num++;
 		}
 		if(num == 0) {
-			sqlquery = "Select * from " + tableName;
+			if(count > 0) {
+				sqlquery = "Select top " + count + " * from " + tableName;
+			}
+			else {
+				sqlquery = "Select * from " + tableName;				
+			}
 		}
 //		System.out.println(sqlquery);
 		try {
@@ -95,10 +110,57 @@ public class DBHelper {
 		Object value;
 		String sqlupdate = "";
 		int num = 0;
+		if(map == null) {
+			return 0;
+		}
 		for(Map.Entry<String, Object> pair : map.entrySet()) {
 			attribute = pair.getKey();
 			value = pair.getValue();
-			sqlupdate = "update " + tableName + " set " + attribute + " = " + value.toString() + " where qid = " + id;
+			if(value instanceof String) {
+				sqlupdate = "update " + tableName + " set " + attribute + " = '" + value.toString() + "' where id = " + id;
+			}
+			else {
+				sqlupdate = "update " + tableName + " set " + attribute + " = " + value.toString() + " where id = " + id;				
+			}
+//			System.out.println(sqlupdate);
+			try {
+				num = sta.executeUpdate(sqlupdate);
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		try {
+			conn.commit();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return num;
+	}
+	
+	/*
+	 * 更新所有表项数据
+	 * @prama:一个保存着属性名(String)，属性值(Object)的map
+	 * @return：修改是否成功，成功为1，失败为0
+	 */
+	public int updateAll(Map<String,Object> map)
+	{
+		String attribute;
+		Object value;
+		String sqlupdate = "";
+		int num = 0;
+		if(map == null) {			
+			return 0;
+		}
+		for(Map.Entry<String, Object> pair : map.entrySet()) {
+			attribute = pair.getKey();
+			value = pair.getValue();
+			if(value instanceof String) {
+				sqlupdate = "update " + tableName + " set " + attribute + " = '" + value.toString();
+			}
+			else {
+				sqlupdate = "update " + tableName + " set " + attribute + " = " + value.toString();				
+			}
 //			System.out.println(sqlupdate);
 			try {
 				num = sta.executeUpdate(sqlupdate);
@@ -125,6 +187,9 @@ public class DBHelper {
 		String attribute;
 		Object value;
 		String sqlinsert = "";
+		if(map == null) {
+			return ;
+		}
 		try {
 			ResultSet rs = sta.executeQuery("Select * from " + tableName);
 			rs.moveToInsertRow();
@@ -153,6 +218,9 @@ public class DBHelper {
 		int num = 0;
 		int count = 0;
 		String sqldelete = "delete from " + tableName + " where ";
+		if(map == null) {
+			return 0;
+		}
 		for(Map.Entry<String, Object> pair : map.entrySet()) {
 			attribute = pair.getKey();
 			value = pair.getValue();
@@ -169,6 +237,9 @@ public class DBHelper {
 				sqldelete += " and " + attribute + " = " + valuestr;	
 			}
 			num++;
+		}
+		if(num == 0) {
+			return 0;
 		}
 		try {
 //			System.out.println(sqldelete);

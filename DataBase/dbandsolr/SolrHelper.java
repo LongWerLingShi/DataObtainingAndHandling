@@ -1,5 +1,4 @@
 package dbandsolr;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -88,12 +87,14 @@ public class SolrHelper {
 	 */
 	public void insert(Map<String, Object> map) {
 		SolrInputDocument doc = new SolrInputDocument();
+		if(map == null) {
+			return;
+		}
 		for(Map.Entry<String, Object> pair : map.entrySet()) {
 			doc.addField(pair.getKey(), pair.getValue());
 		}
 		try {
-			solr.add(doc);
-			solr.commit();
+			solr.add(doc);		
 		} catch (SolrServerException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -104,22 +105,48 @@ public class SolrHelper {
 	 *插入方法
 	 *@prama：要传导solr的属性（暂定）
 	 */
-	public void insert(String id,String title,String links,String date,String content,String author) {
-		SolrData sd = new SolrData();
-		sd.id = id;
-		sd.title = title;
-		sd.links = links;
-		sd.creation_date = date;
-		sd.content = content;
-		sd.author = author;
-		solr.setRequestWriter(new BinaryRequestWriter());
+	public void insert(String id,String title,String links,String date,String content,String[] keywords, String author,String doc_type,String question_content,String[] answer_content) {
+		SolrInputDocument doc = new SolrInputDocument();
+		if(id != null) {
+			doc.addField("id", id);			
+		}
+		if(title != null) {
+			doc.addField("title",title);			
+		}
+		if(links != null) {
+			doc.addField("links",links);			
+		}
+		if(date != null) {
+			doc.addField("creation_date",date);			
+		}
+		if(content != null) {
+			doc.addField("content", content);			
+		}
+		if(keywords != null) {
+			for(int i = 0;i < keywords.length;i++) {
+				doc.addField("keywords", keywords[i]);		
+			}
+		}
+		if(author != null) {
+			doc.addField("author",author);			
+		}
+		if(doc_type != null) {
+			doc.addField("doc_type",doc_type);			
+		}
+		if(question_content != null) {
+			doc.addField("question_content",question_content);			
+		}
+		if(answer_content != null) {
+			for(int i = 0;i < answer_content.length;i++) {
+				doc.addField("answer_content",answer_content[i]);
+			}			
+		}
 		try {
-			solr.addBean(sd);
-			solr.optimize();
-		} catch (IOException | SolrServerException e) {
+			solr.add(doc);			
+		} catch (SolrServerException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}	
 	}
 	
 	/*
@@ -128,28 +155,25 @@ public class SolrHelper {
 	 */
 	public void delete(String id) {
 		try {
-			solr.deleteById(id);
-			solr.commit();
+			solr.deleteById(id);			
 		} catch (SolrServerException | IOException e) {
 			e.printStackTrace();
 		}
 		
 	}
 	
-	class SolrData
-	{
-		@Field
-		String id;
-		@Field
-		String title;
-		@Field
-		String links;
-		@Field
-		String creation_date;
-		@Field
-		String content;
-		@Field
-		String author;
-		
+	/*
+	 * 提交改动
+	 * insert,delete操作结束后要commit才会生效
+	 */
+	public void commitchange() {
+		try {
+			solr.commit();
+		} catch (SolrServerException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
+
+	
 }

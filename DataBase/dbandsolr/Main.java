@@ -1,5 +1,6 @@
 package dbandsolr;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.sql.*;
@@ -27,44 +28,48 @@ public class Main {
 //		m.testsolrquery();
 //		m.testsolrdelete();
 //		m.testsolrquery();
-		int count = 0;
-		SolrHelper solr = new SolrHelper(solrip,port);
-		DBHelper db = new DBHelper(ip,basename,"Question",username,password);
-		String line;
-		ResultSet rs = db.query(new HashMap());
+//		m.cleardealedtag();
+//		m.testinsert();
+		m.testsolrinsert();
+//		m.queryhtml();
+	}
+
+	public String getnotdealed() {
+		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("isDeal", 1);
+		ResultSet rs = db.query(1, map);
+		String path = null;
 		try {
-			count = rs.getMetaData().getColumnCount();
-			while(rs.next()) {
-				line = "";
-//				for(int i = 1;i <= count;i ++) {
-//					if(i == rs.findColumn("body") || i == rs.findColumn("link") || i == rs.findColumn("title")){						
-//					}
-//					else {
-//						line += rs.getString(i) + '\t';	
-//					}			
-//				}
-//				System.out.println(line);
-				System.out.println(rs.getString("qid")+ " " + rs.getString("title")+ " " + rs.getString("link")+ " " + rs.getString("creation_date")+ " " + rs.getString("owner"));
-				solr.insert(rs.getString("qid"), rs.getString("title"), rs.getString("link"), rs.getString("creation_date"), rs.getString("body"), rs.getString("owner"));
-			}
-			if(rs != null) {
-				rs.close();				
+			if(rs.next()) {
+				path = rs.getString("FilePath");				
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}		
+		db.release();
+		return path;
+	}	
+	
+	public void cleardealedtag()
+	{
+		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
+		Map<String,Object> map = new HashMap<String,Object>();
+		map.put("isDeal", 1);
+		db.updateAll(map);
 		db.release();
 	}
-
+	
 	public void testsolrinsert() {
 		SolrHelper solr = new SolrHelper(solrip,port);
-//		Map<String, Object> map = new HashMap();
-//		map.put("wid", 1);
-//		map.put("id", "webtest");
-//		map.put("web_title", "baidu");
-//		solr.insert(map);
-//		solr.insert("webtest", "baidu", "www.baidu.com");
+//		ArrayList<String> answer = new ArrayList<String>();
+//		answer.add("answer1");
+//		answer.add("answer2");
+//		ArrayList<String> keywords = new ArrayList<String>();
+//		keywords.add("keyword1");
+//		keywords.add("keyword2");
+		solr.insert("webid", "title", "links", "date", "content", null, "author", "doc_type", "question_content", null);
 	}
 	
 	public void testsolrdelete() {
@@ -77,68 +82,95 @@ public class Main {
 		SolrHelper solr = new SolrHelper(solrip,port);
 		Map<String, Object> map = new HashMap();
 		int num = 0;
-		map.put("id", "*");
+		map.put("id", "web*");
 		map.put("title", "baidu");
 		SolrDocumentList list = solr.query(map, 100, "id", "title", "links");
 		for(int i = 0;i < list.size();i ++) {
 			SolrDocument doc = list.get(i);
 			System.out.print(i + 1);
-			System.out.print("id: " + doc.getFieldValue("id"));
-			System.out.print("title: " + doc.getFieldValue("title"));
-			System.out.println("links: " + doc.getFieldValue("links"));
+			System.out.print(" id: " + doc.getFieldValue("id"));
+			System.out.print(" title: " + doc.getFieldValue("title"));
+			System.out.println(" links: " + doc.getFieldValue("links"));
 		}
-//		for(SolrDocument doc : list) {
-//			num++;
-//			System.out.print(num + " ");
-//			System.out.print("id: " + doc.getFieldValue("id"));
-//			System.out.print("title: " + doc.getFieldValue("title"));
-//			System.out.println("links: " + doc.getFieldValue("links"));
-//		}
 	}
 	
 	public void testdelete()
 	{
 		DBHelper db = new DBHelper(ip,basename,table1,username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("id", 2);
+		map.put("author", "QI");
 		db.delete(map);
-		db.delete(1);
+		db.delete(8);
+		db.delete(9);
 		db.release();
 	}
 	
 	public void testinsert()
 	{
-		DBHelper db = new DBHelper(ip,basename,table1,username,password);
+//		DBHelper db = new DBHelper(ip,basename,table1,username,password);
+//		Map<String,Object> map = new HashMap<String,Object>();
+//		map.put("filetype", "html");
+//		map.put("filepath", "d:\\1.html");
+//		map.put("url", "www.baidu.com");
+//		map.put("encode", "utf-8");
+//		map.put("isDeal", "0");
+//		db.insertline(map);
+		DBHelper db = new DBHelper(ip,"Crawler","Question",username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("filetype", "html");
-		map.put("filepath", "d:\\1.html");
-		map.put("url", "www.baidu.com");
-		map.put("encode", "utf-8");
-		map.put("isDeal", "0");
+		map.put("id", 10);
+		map.put("title", "QI");
+		map.put("views", "1");
 		db.insertline(map);
+		db.release();
+	}
+	
+	public void queryhtml()
+	{
+		DBHelper db = new DBHelper(ip,"XueBa","fileinfo",username,password);
+		Map<String,Object> map = new HashMap<String,Object>();
+		//map.put("isDeal", 1);
+		map.put("filetype", "html");//filetype = 'html'
+		ResultSet rs = db.query(-1, map);//-1说明返回所有满足的条数，如果是正数n说明返回前n条
+		int count;
+		try {
+			rs.last();//指向最后一条
+			count = rs.getRow();//得到行数
+			rs.first();//指向第一条(如果还要用rs的话)
+			System.out.println(count + " html");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		map.put("isDeal", 1);//filetype = 'html' and isDeal = 1
+		rs = db.query(-1, map);
+		try {
+			rs.last();
+			count = rs.getRow();
+			rs.first();
+			System.out.println(count + " html isDeal");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		db.release();
 	}
 	
 	public void testquery()
 	{
-		DBHelper db = new DBHelper(ip,basename,table1,username,password);
+		DBHelper db = new DBHelper(ip,"Crawler","fileinfo",username,password);
+		//DBHelper db = new DBHelper(ip,basename,table1,username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-//		map.put("answer_count", 1);
-//		map.put("view_count", 27);
-		map.put("isDeal", 0);
-		ResultSet rs = db.query(map);
+		map.put("isDeal", 1);
+		ResultSet rs = db.query(10,map);
+		
 		int count;
 		String line = "";
 		try {
 			count = rs.getMetaData().getColumnCount();
 			while(rs.next()) {
 				line = "";
-				for(int i = 1;i <= count;i ++) {
-					if(i == rs.findColumn("body") || i == rs.findColumn("link") || i == rs.findColumn("title")){						
-					}
-					else {
-						line += rs.getString(i) + '\t';	
-					}			
+				for(int i = 1;i <= count;i ++) {				
+					line += rs.getString(i) + '\t';					
 				}
 				System.out.println(line);
 			}
@@ -156,9 +188,11 @@ public class Main {
 	public void testupdate() {
 		DBHelper db = new DBHelper(ip,basename,table1,username,password);
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("answer_count", 1);
-		map.put("view_count", 27);
-		db.update(1, map);
+		map.put("title", "baidu");
+		map.put("date", "2010-9-1");
+		map.put("author", "QI");
+		map.put("keywords", "test1,rt2");
+		db.update(7, map);
 		db.release();
 	}
 	

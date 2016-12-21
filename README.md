@@ -153,13 +153,19 @@ class SolrHelper
    *插入方法
    *@prama：要传导solr的属性（暂定）
    */
-  public void insert(String id,String title,String links,String date,String content,String author);
+  public void insert(String id,String title,String links,String date,String content,String[] keywords, String author,String doc_type,String question_content,String[] answer_content);
 
   /*
    * 删除方法
    * @prama:要删除的doc的id
    */
   public void delete(String id);
+
+  /*
+   * 提交改动
+   * insert,delete操作结束后要commit才会生效
+   */
+  public void commitchange();
 }
 ```
 于2016/12/15
