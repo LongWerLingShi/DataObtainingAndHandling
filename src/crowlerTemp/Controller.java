@@ -30,11 +30,12 @@ public class Controller {
 		config = new CrawlConfig();
 		config.setCrawlStorageFolder("D:\\root");
         config.setIncludeBinaryContentInCrawling(true);
+        config.setResumableCrawling(true);
         pageFetcher = new PageFetcher(config);
         robotstxtConfig = new RobotstxtConfig();
         //robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher);
         robotstxtServer = new RobotstxtServer_son(robotstxtConfig, pageFetcher);
-
+        
         Seeds = new LinkedList<String>();
 	}
 	CrawlController controller;

@@ -127,6 +127,7 @@ public class FileListener extends Thread{
             int objPdf;
             int objDoc;
             int objPic;
+            int objCraw;
         	if(this.ifRunning == true && this.ifClosing == false){
         		objState="working";
         		objStart= this.startTime;
@@ -135,6 +136,7 @@ public class FileListener extends Thread{
         		objPdf = cont.getPdfNum();
         		objDoc = cont.getDocNum();
         		objPic = cont.getImageNum();
+        		objCraw = this.toBeNum;
         	}
         	else{
         		if(this.ifClosing){
@@ -148,6 +150,7 @@ public class FileListener extends Thread{
         		objPdf = 0;
         		objDoc = 0;
         		objPic = 0;
+        		objCraw =0;
         	}
             
         	JSONArray objURL = new JSONArray();  
@@ -171,6 +174,7 @@ public class FileListener extends Thread{
             js.key("pdfNumber").value(objPdf);
             js.key("docNumber").value(objDoc);
             js.key("pictureNumber").value(objPic);
+            js.key("crawlerNumber").value(objCraw);
             js.key("web").value(objURL);
             js.key("keyWord").value(objKeyWord);
             js.endObject();  
