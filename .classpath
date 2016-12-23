@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/commons-io-2.3.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/jcl-over-slf4j-1.7.6.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/slf4j-log4j12-1.7.6.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/solr-solrj-4.10.4.jar"/>
+	<classpathentry kind="lib" path="F:/作业/第三学期/软件工程/DataProcessing/src/jar/sqljdbc4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
