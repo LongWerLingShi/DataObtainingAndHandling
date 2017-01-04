@@ -1,0 +1,11 @@
+{
+	"threadNumber":1,
+	"web":[
+		{"URL":"http://www.eol.cn/"},
+		{"URL":"http://college.gaokao.com/"},
+		{"URL":"http://gaokao.chsi.com.cn/"},
+		{"URL":"http://www.energy.ca.gov/transportation/zev/pev/ev_charging_stations_ca.pdf"}
+	],
+	"keyWord":
+	[]
+}

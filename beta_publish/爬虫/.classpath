@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/json/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/json/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/json/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/json/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/json/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/json/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/crawler4j-4.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/org.json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/slf4j-jdk14-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shuaige/Desktop/c/Crawler/lib/sqljdbc4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

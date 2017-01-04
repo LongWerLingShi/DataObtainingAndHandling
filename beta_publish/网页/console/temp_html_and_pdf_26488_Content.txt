@@ -1,0 +1,1916 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>������ķ���-Сѧ���������-��ѧ��������Ĵ�ȫ</title>
+<meta content="�������,Сѧ���������,��ѧ���������" name="Keywords">
+<meta content="������ķ��ģ�������������������� http://www.unjs.com" name="Description">
+<meta content="�й���ѧ�� www.unjs.com" name="copyright">
+<link href='http://www.unjs.com/Skin/newcssclass.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide
+function killErrors() {
+return true;
+}
+window.onerror = killErrors;
+// -->
+</SCRIPT> 
+<!-- ********��ҳ�������뿪ʼ******** -->
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <table class='kuang_top' width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left"><A title=�й���ѧ�� href="http://www.unjs.com"><IMG alt="�й���ѧ��" src="http://www.unjs.com/images/logonew.gif" border=0></A></td>
+            <td class=fontwhite align=right>| <A class=fontwhite href="http://www.unjs.com/">��վ��ҳ</A> | <A class=fontwhite href="http://www.unjs.com/kaoyan/" target=_blank>����ר��</A> | <A class=fontwhite href="http://www.unjs.com/gaokao/" target=_blank>�߿��г�</A> | <A class=fontwhite href="http://www.unjs.com/zhongkao/" target=_blank>�п�ר��</A> | <A class=fontwhite href="http://www.unjs.com/zikao/" target=_blank>��ѧ����</A> | <A class=fontwhite href="http://www.unjs.com/Article/" target=_blank>Ӣ��ѧϰ</A> | <A class=fontwhite href="http://www.unjs.com/gongwuyuan/" target=_blank>����Ա����</A> | <A class=fontwhite href="http://www.unjs.com/zige/" target=_blank>�ʸ���</A> | <BR>| <A class=fontwhite href="http://www.unjs.com/lunwen/" target=_blank>�������</A> | <A class=fontwhite href="http://www.unjs.com/jiaoan/" target=_blank>��ѽ̰�</A> | <A class=fontwhite href="http://www.unjs.com/shiti/" target=_blank>�������</A> | <A class=fontwhite href="http://www.unjs.com/zuowen/" target=_blank>����԰��</A> | <A class=fontwhite href="http://www.unjs.com/liuxue/" target=_blank>������ѧ</A> | <A class=fontwhite href="http://www.unjs.com/youjiao/" target=_blank>�׶�����</A> | <A class=fontwhite href="http://www.unjs.com/jiuye/" target=_blank>��ѧ����ҵ</A> | <A class=fontwhite href="http://www.unjs.com/fanwenwang/" target=_blank>����д��</A> | <BR>| <A class=fontwhite href="http://www.unjs.com/daxue/" target=_blank>��ѧ����</A> | <A class=fontwhite href="http://www.unjs.com/fanwenwang/gzzj/" target=_blank>�����ܽ�</A> | <A class=fontwhite href="http://www.unjs.com/fanwenwang/xdth/" target=_blank>�ĵ����</A> | <A class=fontwhite href="http://www.unjs.com/xuexi/" target=_blank>��ժ����</A> | <A class=fontwhite href="http://www.unjs.com/lunwenzhaiyao/" target=_blank>����ժҪ</A> | <A class=fontwhite href="http://www.unjs.com/zhaopin/" target=_blank>��Ƹ��Ϣ</A> | <A class=fontwhite href="http://www.unjs.com/fenxianghulianwang/" target=_blank>���������</A> | <A class=fontwhite href="http://www.unjs.com/miyu/" target=_blank>�����ȫ</A> | </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class='kuang_menu'><div class="oneline"><table border='0' cellpadding='0' cellspacing='2'><tr><td><a class='LinkNavigation' href='http://www.unjs.com/zuowen/zuowenwang/' title='������-���Ĵ�ȫ-����' target='_self'>������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxuesheng/' title='Сѧ����������' target='_self'>Сѧ������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/chuzhongzuowen/' title='��������-�������Ĵ�ȫ' target='_self'>��������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/gaozhongzuowen/' title='��������-���������ز�-����������-�������Ĵ�ȫ' target='_self'>��������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zhongxuesheng/' title='��ѧ������-����������-����������' target='_self'>��ѧ������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/duhougan/' title='�������վ-����з���-���������-���������-duhougan' target='_self'>�����</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/guanhougan/' title='�ۺ�з��Ĵ�ȫ' target='_self'>�ۺ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxueshengyouxiuzuowen/' title='Сѧ���������Ĵ�ȫ' target='_self'>Сѧ����������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zhidao/' title='����ָ���������������ǣ�' target='_self'>����ָ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/sucai/' title='�����ز�-����д��ָ��' target='_self'>�����ز�</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/huatizuowen/' title='��������,�ԡ���Ϊ���������' target='_self'>��������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/jixuwen/' title='������-����������' target='_self'>������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxueshengzuowen/' title='Сѧ��������-Сѧ������-Сѧ�����Ĵ�ȫ-Сѧ������������' target='_self'>Сѧ��������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxueshengzuowen/yinianjizuowen/' title='Сѧһ�꼶����' target='_self'>Сѧһ�꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxueshengzuowen/xiaoxue2/' title='Сѧ���꼶����' target='_self'>Сѧ���꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxueshengzuowen/xiaoxue3/' title='Сѧ���꼶����' target='_self'>Сѧ���꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxueshengzuowen/xiaoxue4/' title='Сѧ���꼶����' target='_self'>Сѧ���꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxueshengzuowen/xiaoxue5/' title='Сѧ���꼶����' target='_self'>Сѧ���꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/xiaoxueshengzuowen/xiaoxue6/' title='Сѧ���꼶����' target='_self'>Сѧ���꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zxszw/' title='��ѧ��������-����������-����������-��ѧ���������ķ���' target='_self'>��ѧ��������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zxszw/chuyi/' title='����һ�꼶����-��һ����-���꼶���ķ���-����������' target='_self'>����һ�꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zxszw/chuerzuowen/' title='���ж��꼶����-��������-���ж��꼶���Ĵ�ȫ' target='_self'>���ж��꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zxszw/chusanzuowen/' title='�������꼶����-�������꼶���Ĵ�ȫ-��������' target='_self'>�������꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zxszw/gaoyizuowen/' title='����һ�꼶����-��һ����-����һ�꼶���Ĵ�ȫ' target='_self'>����һ�꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zxszw/gaoerzuowen/' title='���ж��꼶����-�߶�����-���ж��꼶���Ĵ�ȫ' target='_self'>���ж��꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zxszw/gaosanzuowen/' title='�������꼶����-��������-�������꼶���Ĵ�ȫ' target='_self'>�������꼶����</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/' title='ר������-�������-��ʦ������-���������-��������-��������-��ѧ������' target='_self'>ר������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/' title='������ķ���-Сѧ���������-��ѧ��������Ĵ�ȫ' target='_self'>�������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/shibohuizuowen/' title='����������' target='_self'>����������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/junxunriji/' title='��ѵ�ռ�-���ռ�����ѵ�Ƕ���������������ʱ��' target='_self'>��ѵ�ռ�</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/jiaoshijiezuowen/' title='��ʦ������-��д��ʦ���ж���ʦ��������ʦ�������ֱ��Խ�ʦ�ĳ羴֮��' target='_self'>��ʦ������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/guoqingjiezuowen/' title='���������-������ı�ʽ���ķ��Ĵ�ȫ' target='_self'>���������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/jishizuowen/' title='��������' target='_self'>��������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/shengdanjiezuowen/' title='ʥ��������' target='_self'>ʥ��������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/chunjiezuowen/' title='��������-��������-��������' target='_self'>��������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/hanjiaozuowen/' title='�������ķ���' target='_self'>��������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/ztzw/xinxueqizuowen/' title='��ѧ�����������ķ���-��ѧ������' target='_self'>��ѧ������</a> <a class='LinkNavigation' href='http://www.unjs.com/zuowen/gaokaozuowen/' title='�߿�����-�߿���������-�߿��������' target='_self'>�߿�����</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/shouchaobao/' title='�ֳ�����ȫ-�ֳ���' target='_self'>�ֳ�����ȫ</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/banji/' title='�ҵİ༶����-���ǰ��������' target='_self'>�ҵİ༶����</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/sanwensuibi/' title='����ɢ�����,�˸�ɢ�����,����ɢ����� -ɢ�����' target='_self'>ɢ�����</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/yuanxiaojiedeshiju/' title='Ԫ���ڵ�ʫ��-����Ԫ���ڵ�ʫ-Ԫ����ʫ��-Ԫ���ڵ�ʫ��' target='_self'>Ԫ���ڵ�ʫ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zhongqiujiedexisu/' title='����ڵ�ϰ��-����ڵ�ϰ������Щ-��������ڵ�ϰ��-����ڵ�ϰ������' target='_self'>����ڵ�ϰ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zhongqiujiedeshiju/' title='����ڵ�ʫ��-�й�����ڵ�ʫ��-��д����ڵ�ʫ��-����ʫ��-�����ʫ��-����ѽ�ʫ��' target='_self'>����ڵ�ʫ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/chongyangjie/' title='����ڵ�ϰ��,����ڵ�������ϰ��-����ڵ�����' target='_self'>����ڵ�ϰ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/chongyangjiedeshiju/' title='����ڵ�ʫ��-��������ڵ�ʫ��-����ڵ�ʫ��-����ڹ�ʫ' target='_self'>����ڵ�ʫ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/qixijiedeshiju/' title='��Ϧ�ڵ�ʫ��-������Ϧ��ʫ��-��Ϧʫ��-��Ϧʫ��' target='_self'>��Ϧ�ڵ�ʫ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/qixijiedexisu/' title='��Ϧ�ڵ�ϰ��-��Ϧϰ��-��Ϧ��ϰ��' target='_self'>��Ϧ�ڵ�ϰ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/qixijiedelaili/' title='��Ϧ�ڵ�����-��Ϧ�ڵ�����-��Ϧ������' target='_self'>��Ϧ�ڵ�����</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/shengdanjiedeyoulai/' title='ʥ���ڵ�����-ʥ���ڵ�����' target='_self'>ʥ���ڵ�����</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/shengdanjiedexisu/' title='ʥ���ڵ�ϰ��-ʥ��ϰ��' target='_self'>ʥ���ڵ�ϰ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zhishujie/' title='ֲ���ڵ�����-ֲ���ڵ�����-ֲ�����ֳ���-ֲ���ڻ-ֲ���ڻ����-ֲ���ںڰ屨' target='_self'>ֲ����</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/liuyiertongjie/' title='��һ��ͯ��-��ͯ�ڵ�����-��һ��ͯ���ֳ���-��һ��ͯ�ڻ����-��һ��ͯ������' target='_self'>��һ��ͯ��</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zhuangwuzuowen/' title='״������-д��״������-״�������-״������600��' target='_self'>״������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/yilunwen/' title='������-����������-�������ز�-�����ķ���-��������ôд' target='_self'>������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/shuomingwen/' title='˵����-˵��������-˵���ķ���-˵��������600��-����˵����-˵��������400��,500��' target='_self'>˵����</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/riji/' title='�ռ�-�ռǴ�ȫ-Сѧ���ռ�-�ռ�����-�ռ�300��' target='_self'>�ռ�</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/zhouji/' title='�ܼ�-�ܼǴ�ȫ-�ܼ�600��,500��,400��,300��' target='_self'>�ܼ�</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/kaoshizuowen/' title='��������-��ĩ��������-���п�������' target='_self'>��������</a>  <a class='LinkNavigation' href='http://www.unjs.com/zuowen/danyuanzuowen/' title='��Ԫ����-���ĵ�Ԫ����' target='_self'>��Ԫ����</a>  </td></tr></table></div></td>
+  </tr>
+  <tr>
+    <td height=28>�������ڵ�λ�ã�&nbsp;<a class='LinkPath' href='http://www.unjs.com'>�й���ѧ��</a>&nbsp;>>&nbsp;<a class='LinkPath' href='http://www.unjs.com/zuowen/'>����</a>&nbsp;>>&nbsp;<a class='LinkPath' href='http://www.unjs.com/zuowen/ztzw/'>ר������</a>&nbsp;>>&nbsp;<a class='LinkPath' href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/'>�������</a></td>
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width=960 align=center border=0>
+  <tr>
+    <td align="center" class='kuang'><script language='javascript' src='http://www.unjs.com/agao/201108/27.js'></script></td>
+  </tr>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<!-- ********��ҳ�����������******** --> 
+<!-- ********��ҳ�в����뿪ʼ******** --> 
+<table width="960"  border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top">
+    <!--��ҳ�в����������б���뿪ʼ--> 
+<table style="table-layout:fixed;word-break:break-all" width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><h1><A href="http://www.unjs.com/zuowen/ztzw/shujiazuowen/">�������</A></h1></td> 
+  </tr>
+  <tr>
+    <td align="center"><script language='javascript' src='http://www.unjs.com/agao/201108/35.js'></script></td> 
+  </tr>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+  <tr>
+    <td><div class="oneline2">��[<h3><A href="http://www.unjs.com/zuowen/ztzw/shujiazuowen/">������ķ��ģ��������������������</A></h3>]</div></td> 
+  </tr>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+  <tr>
+    <td height="300" valign="top">
+    <!--ѭ�����뿪ʼ--> 
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081023_679754.html' target=_blank><h4>������ģ�����δ������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����ʱ���ڽ�������ѧ�ڷ�չ��ת�ۼ�͵���2033�꣬ʲô���ڷ����仯����Ȼ������Ϊ��Ҫ�ķ���Ҳ�����⣬���˷��츲�صı仯������2033�꣬���Ǿ�ס�ķ�����״���Ի�ʮ�㣬����ν���������Ը������˵İ��ã��任�ɸ��ָ�������״�������ϲ����ͨ��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081021_679752.html' target=_blank><h4>�������600�֣����ż�Сè</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�����ҵ����ż�ԭ������һֻ�ɰ���Сè����ȫ�����ѩ��ɫ������÷��ӡ��С�ţ����̵�β�ͣ����������۾���	����Сè�ǳ���̰�ԡ��Ҽǵ���һ�Σ����ź��⹫���ڵ�ʱ������׼��ȥ��һ��è�ڸ������ҰѼ������˺ܾã���û���ҵ�Сè����˼����Ƭ��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081021_679751.html' target=_blank><h4>�������500�֣���Ϻ������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�����Һ�����һ��ȥ���㣬��縺��ץ��Ϻ���Һ��������˼���Сʱ��ʱ�䣬һ�������ϰ���С�㣬�˷ܼ��ˡ����ͬʱ�����Ҳץ����9ֻ��Ϻ��	����һ�����������ˣ��Һ�����������㡣����һ��ʱ�䣬�Һ�����ص����Լ��ļң��Ұ���Ϻ�Ƿ��ڻ�԰���ϴ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081020_679749.html' target=_blank><h4>����ռǣ������и�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����������Ҷ���һ��ͯ�����У��Ǹ������������۶����Ȿ�����Ȥ��!	�����Ȿͯ�������ˡ���С���Ǹ����꼶��Ů���������ص���Ů���ϣ�������һ��Ը�⵽����ȥ����ķ��Ů�ˡ�������ص�Ů�˽��۶����۶��ĳ���ʹ��С�Ǽҵ��������������Ծ������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081019_679748.html' target=_blank><h4>������ģ��ι���԰</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����������Ǳ��������ţ��㶫��ƽ��·������ι���԰����԰�ǹ���AAAA����������	������԰��������лά��������ʱʮ�꽨��ı�����԰�������25��(1936��)���ɡ��߽���԰һ�������ȿ������Ǽ�����¥ģ�ͣ���Щ��¥ģ�ͱ������õ�¥ģ��Ҫ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081018_679747.html' target=_blank><h4>������ģ�ȥ���ڿ���</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	���������ְ��������ȥ���ڿ���!	�������Ǿ���һ������ͷ�ı��������������˶�ӿ!��·�ϣ����Ǿ����˶������ȳǣ��������кö�����!���ǻ�������һ���˵�վ���˵�վ�����ú˷��磬�����ͻ���Ҳ�ܽ�Լ������ɳ̲�ϣ����Ȳ������������˶�Ь����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081018_679746.html' target=_blank><h4>�������400�֣�ժ����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��������ʮ���գ��Һ�����һ���Ⱒ������԰ȥժ���ѣ���˵���Ķ��������ִ����𣬿ڸзǳ��ã��������ȥ���ֲ�ժ������Ʒ���ˡ�	�������Ǵ������������������Сʱ�ĳ��̣��������Ⱒ������԰���������Ķ������Ǹ��³�ԶԶ�ؾͿ���һ��Ƭ����԰����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081017_679745.html' target=_blank><h4>����ռ�600�ַ��ģ��½��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������Ǽ�����һλ���㣬��ϧ�Һ���ȴû���κ�ѪԵ��ϵ��ԭ�������ҵ�����ʦ��	�����ҵ�һ�μ�����������»�������ʱ�հ��̺�����Զ�����Ҵ��к����ԶԶ��ȥ���һ�����������ô���ҽ����!�����߽��ˣ������´�����һ����ԲԲ��������һ˫��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081017_679744.html' target=_blank><h4>�������500�֣�׽����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������죬�۰ֽ����Һͽ��һ����Ҫ�����������ʮ�ּ�ޡ����������ǣ�����׽�����۰ֻ�˵��&ldquo;���׽ס��ÿ�˽���200Ԫ��&rdquo;�����룺˭Ը���ҹ��������׽���󰡣��ҲŲ�ץ�أ���ҪǮ����!���۰ֺ��񿴳�������ʲô...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081016_679743.html' target=_blank><h4>����ռ�500�֣�Ѱ���</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	������?�Ķ�ȥ��?�Ǻǣ���һ������Ϊ���ж������ĵ�ë��������!������ϸϸ������	��������С�̸�������·������Ҳ��ɵ�Ц������������ү������Ľ���ʺ��ҵ��·�����Ӳ�ǳ���һ�����̯��������ʰ��	�����������ϣ��ұ������м�ʮ�����ӵķ�������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081016_679742.html' target=_blank><h4>����ռǣ�����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����&ldquo;����&mdash;&mdash;9����!̫���ɹƨ����&hellip;&hellip;&rdquo;��!�ò������ε�����٣���ȴ��������������˯���͵����ͣ����Ͽ�ȥ��	����ʱ�䣺8:00 �ص㣺����	����&ldq...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081015_679741.html' target=_blank><h4>�������500�֣�ˮǹ��ս</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��������������׼�һ����̼��漸�죬�Ҹ��˵�һ�����߸ߡ�	�����������̼���Ե�����˵�Ī�����ø��º��ˡ���һ̤�����ţ��º�����ҷź�����������������������ܡ�&ldquo;ˮǹ&rdquo;���ѿڶ�����&ldquo;�ǵģ���ȱһ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081014_679739.html' target=_blank><h4>������ģ�����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����������һ����������������������Ĺ����� -----���	������Ƶĵƹ��������ţ��������������ĵ���ܰ�㡣��ֻ�ɳ�Χ���ŵƹ⣬����������˵�������ĵƹ�������ǵ�������԰�����������յ�����ء�Ϊ����Ƭ�������ܲ�������������Ը��Ϊһ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081013_679737.html' target=_blank><h4>�ҵ�������ģ��������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����&ldquo;Ե����գ��������Σ���Ϊ�������ò�ͬ������֣�����������У�������һ���Ӳ�����&hellip;&hellip;&rdquo;	����&mdash;&mdash;��骣���Ե�ֵ���ա�	���������㲻���ţ��ң�һ������ͨͨ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081012_679736.html' target=_blank><h4>�������800�֣�����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	������������ָ�Ӽ�С��������һ��ָ�Ӵ����и�����ί�ύ������һ������ָ�����ࡣ�����У��������˲���г�ĵط�����ָ���ֶ�ͣ�����������࣬�����ò�����Ȼ����ʱ���ڳ��������Һ���ί���Ȩ���˶�֣����������û���κ����⣬��С�������Ĵ����С��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081011_679734.html' target=_blank><h4>������ģ���֮������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������װ��裬�������ִɱ���衣Сʱ��ǵø��װ������򻨲裬��Ũ�����ȵĿ�ˮע���Ǵɱ�����̼仨�㡢���������������СС�ļҡ����������غȣ�ϸϸ��Ʒ�š�����ĸ�׵ĺ�������Щ���⣬ҽ��˵���Ȳ��кô�������ĸ��Ҳ�����˺Ȳ衣ĸ�����˸�����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081011_679733.html' target=_blank><h4>������ģ�������������������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�����ḻ����������ʹ������÷ḻ��ʣ������Ҷ��꡶��������������ĸд���	�������������������Ҫ��һ���������ӵ�Сѧ���ڿ�����˵�������ڲ�ͬ�ļ���&mdash;&mdash;����������񶹽ǡ������ʦ�ܲ����ˣ����������������ӡ�����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081010_679732.html' target=_blank><h4>�������500�ַ��ģ�׽��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	���������ڼҿ�����ʵ�����ģ�������˵����������������棬�Ҹ��˵Ĳ����ˡ�	������ϲ���ܵ��ӱ�ȥ׽�����Ϻз��ÿ�ζ������ض��顣��Σ��Ӷ��������ĸ�������Ҽң�����������������ȥ�ӱ�׽�㡣���ø������һ�ߺ��ţ���������&ldquo...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081010_679731.html' target=_blank><h4>������ģ�΢Ц</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��������κ�������ˣ����ѣ�������İ���ˣ��Ҷ����������һ��΢Ц����Ϊ����֪����΢Ц��������֮�佻���ı���Ʒ��	�����������죬���ȷǳ������������г��ڴ�����Ϣ�Ĵ���ϣ�һ��ֻ���ŸϿ�ؼҡ����ǣ��Ҽӿ��˳��٣��ŵŵĸ��о��ˡ������뵽...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081008_679728.html' target=_blank><h4>�������500�֣������򰮡��и�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��������һ���¶�����������һ���������ʦ��ͥ�����ĸ�ĸ���ȥ���ˣ����ĸ�ĸ�����ȥ���ˡ���С�ļ�ֻ��ס�����˸�ĸ�ҡ��˸�ȥ���󣬼��������20���ʹ������������ʮ�����ܾ�����ĥ��	���������ʹ����������ϵ�ʹ�࣬ʹ�ü����һ����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081007_679727.html' target=_blank><h4>����������ģ�������С����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������յ�һ�����ϣ������ڻؼҵ����ϡ����������ϵ�Ƥ��գ���ۣ������װ������ǻ���������Ҳ��֪��ô�����ˣ����ĵض���Ʋ��ҹ������˾���ͻȻ��һֻ���ʼ�į��С�����������������������ǰһ����������!��һֻө��档��һ��ϲ��Ҫ֪����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081006_679724.html' target=_blank><h4>������ٵ����ģ����ǻ۱��ҡ������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����������ҿ��ˡ��ǻ۱��ҡ������ʵĹ��£��ǻ۵������������Ұ������֡�	������ʼ��Ϊ���ǻ۱��ҡ��������־͸о��Ȿ���ｲ��Ӧ����һЩ�����֮��ġ����ǡ����ҷ�����ҳ�����˵�һ�����£��ҾͶ�������������!�ұ��缢�ƿʵض���һ����һ������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081005_679723.html' target=_blank><h4>������һ�������ģ�Ư��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����Ư����һ���¸��ߵ���Ϸ�������������ҺȰְ־�������һ�Ρ�	����Ư��ǰ	�������ǻ������·����ͳ˳�ǰ����㡣·;������һֱ���źӵ����ϡ�����һ�����˹��ĺӵ������д���Ȼ����񹤵������⻬�Ķ���ʯ��Ҳ���˹�����Ĵ���ʯ�ӵ�����һ���...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081005_679722.html' target=_blank><h4>�������600�֣������������������ɵġ��и�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������������������������ɵġ�������һ�α������ж��ˡ�����һ�����õ������̿��飬�����������ǣ����������ǣ����������¸�ǰ�С�	����С˵�������˹�����&middot;�²���12����ͯ�����������ײ㱥����ĥ�����裬�������ϲ���ʲά��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081004_679721.html' target=_blank><h4>�������500�֣�����Բ</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����&ldquo;����Բ������Բ��С�������Բ��������&middot;&middot;&middot;&middot;&middot;&middot;&rdquo;���죬��Ҳ����С��������������Բ����͡�	�����������������ҿ����ǣ���...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081004_679720.html' target=_blank><h4>����ռ�300�֣����ְ�ѧ����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������죬���̲��ڼң��ְ�����Ҫ�ϰ࣬�Ҿ͸��Űְ�ȥ����ģ�߳�����ҵ��	������������ҵ���ְ�������һЩû���õ�������������һ����������ù��߰����жϣ��ô굶���������ƽ���ְָ�����ʾ��һ�飬�ְ����������м��һ����λ��ס��Ȼ��ѹ���װ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081003_679719.html' target=_blank><h4>����ռǣ���������Ħ˹̽�������и�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	������������ʣ�����������������̽����˭�������������С���Ӷ�֪�����������־ͽ���&mdash;&mdash;����Ħ˹����Ȼ��������ʵ�ģ��������������Ѿ����������ǵ����С�	�����⼸���Ҹոն��꡶����Ħ˹̽��������������Ӣ������̽С˵...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817081002_679718.html' target=_blank><h4>����ռ�500�֣����ҷ��ˡ��и�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����������Ҷ���һ�׻���ѵ�����ϵ�е��飬���е�һ�����ҷ��ˡ�������������̵�ӡ��	�����Ȿ����Ҫ������Сѧ���꼶�������������顢���壬�ᰮ�г��ܣ�ȴ�����ʧȥ��ĸ�ס������ھ�ɥ�е���һ�����������������漣����������������������С��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817080956_679714.html' target=_blank><h4>�������ģ�ѧ�᳴ɳ��ţ��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������ҽ�ɫ��ͯ��ʱ�ڣ�������������µĻ��䣬���������ϵķ���һ������Ҳ�����塣������һ���������ķ��ǣ��Ǿ�����ѧ�᳴ɳ��ţ����Ǽ����ˡ�ֱ�����죬�һ��������¡�	�������죬�ְ����費�ڼҡ� �������磬�ҵĶ�������&ldquo;�ճǼ�...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817080953_679708.html' target=_blank><h4>����ռǣ���һ�����ɻ�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�����賿�ĵ������ң����ǳ����������ǰ��ʯ��ׯ������һ·���ǽ�һ����Ӵ��ƫƫ�Ա߻��и�������Զʮ���С�ܵ�һֱ�Ͳ�˯������ͣ��&ldquo;�����&rdquo;��&ldquo;�����&rdquo;���ſ�&ldquo;���&rdquo;...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817080952_679707.html' target=_blank><h4>����ռ�200�ַ��ģ�ѧ����Ӿ</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	������������Ӿ��߰࿪�εĵ�һ�죬ͻȻ�ҵĶ����������죬ԭ�������ǳ��극֮��ϵ�̫���ˡ�	�������ǵ���Ҫ�γ̾�������Ӿ�Ļ�������Ӿ���������������ڰ����������˶�������ǰ������ѧ����Ӿ��ʱ���ֻ࣬��������һЩ��Ӿ�Ķ��������žͿ�ʼ��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817080952_679706.html' target=_blank><h4>����ռǣ�ѧ����������ǡ�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��������С�̹����ˣ������������п�Ư��������ǣ��ҳ���Ҫ��С��Ц��˵���ҽ��㣬�Ժ���ϲ�����ٸ������ж��ٸ���	��������������ǲ����ǣ�	������׼��һ����������ߣ�ʮ�Ű��飬��ʮ�ź��飬�Ȱ��պ�׺�׵�˳���һͷ����ȥ�����ĸ���Ȼ�����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110817080951_679705.html' target=_blank><h4>����ռǣ�����С��Ա</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��������ұ������ٶ�ͼ��ݵ�����С��Ա�������������ҵĵ�һ��ʵ�����	�����糿8��30�֣��һ��ź����ּ��������飬һ�����ܽ���¥��账���Ҹ��������˺ã�ǩ�˵����������ӽ���������档��ǰ�Ҷ�����������飬��ȥ�Ժ�о�����������һ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075752_678793.html' target=_blank><h4>����ռ�500�֣�׽Ϻ</h4></a></td> 
+  </tr>
+  <tr>
+    <td>�������죬��Ϊ�������ȣ����԰ְִ��ҵ��ӱ�ȥ�棬������ƿ��װ�㡣�����ӱߣ��ְ����ڴ����³��������أ����ں�����ˮѽ��׽��ѽ��������Ȼ���ҿ���һֻϺ������Ϊ���㣬���Ȳ��������������§��������û�뵽��ȴ���ˡ�����ȥ׷���ò����ײ����ְ���Χס��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075751_678791.html' target=_blank><h4>����ռǷ��ģ�ȥ�Կϵ»�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��������ȥ�Կϵ»��ˡ�һ��ȥ������һ�������������˹����ְ�ȥ���ͣ��Һ�����ȥ����λ���ò��������˸���λ�����������ðְֻ�û�������ִ�����һ�¿ϵû����ã������ܿ������������Ư������ʩ��ȫ�����ܵ�ǽ���ϻ����˶�ͯ��ͨ���Ϳϵû�����������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075751_678790.html' target=_blank><h4>����ռ�800�֣����������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	���������,�ҿ������������������ص�,�������ھ���ǰ������ȥ,��֪��,������Ϊ�Լ��𽥱��ֵ���Ķ����ա��������,����Ŀͻ�����������Է�,��Щ������֪���ж��ٿ�·����!�����ɲ�����,���󳤽񡷹������谮���˺��磬ÿ�����Ҫ��������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075750_678789.html' target=_blank><h4>����ռǷ��ģ���Ӿ</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������ڼ�������ҵ�����������Щ��ζ�����˿��������ӣ������⹫���Ŵ򼸸��ƣ�Ѱ���ġ�������ҷǳ����̣�ʱ�����Ҷ�����߶����Ҫ���Ҹ�ϰ����Ӣ��˵ʲô&ldquo;���ϱ�ҵ�ˣ������л���ô����!&rdquo;��ֻ�ùԹ���������5�죬����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075750_678788.html' target=_blank><h4>����ռ�1000�֣���ٴ�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������ڹ�������,Ҧ����Ŀ���һ�ÿ������ٵ����ȥ,���Ǳ����ں�˼������:��ʵ,��������ľ�ں���,���ǳ���ǰ����,��,	����&quot;��,������ʲô��?&quot;��Ҧ��-Ҧ��Ľ�������	����Ҧ��΢΢�����±���:&quot;��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075746_678782.html' target=_blank><h4>����ռǣ������һ��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�����յ�����Ҿ����Ժ��������ˣ���֪��ĸ�����ˡ�ĸ�׽���Ҫȥ�г�����ϣ��������Ҹ���ȥ�ˡ���ǰ���Ը�����������ȥ����ɵĻ�ұ�����һһ��Ӧ��ĸ���ߺ��ҽ���˯����û�뵽����˯���ˡ�	�����ٴ�����ʱ����������ˡ������������˯������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075741_678772.html' target=_blank><h4>����ռǷ��ģ��������ǵ����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�����ܾ���,�����������˻����,��Ϊ���ĳɳ�������ʱ��&hellip;&hellip;		����һ		������δ���ӵ���ῼ���죬��������ܲ���Neighbour�д�����ȥ��Ԥ�У��������ǣ����Ƕ���֮�Աǡ�������⣬���������п�ʱ����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075739_678769.html' target=_blank><h4>����ռ�1000�ַ��ģ����ֵ����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����һ����٣����־Ͳ�����������ȥ��ѧ�ˡ�		�����տ�ʼ���죬��������˯������˵Ҫ��һѧ��������ѧû��˯��������������������˯���˳ԣ��Թ���˯�����ӳ����˼��죬����ȴ��Ҳ˯��������˯���ž������ֿ����ӣ������ﲻ���Ͳ岥��棻ѧ������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075737_678764.html' target=_blank><h4>����ռ�900�ַ��ģ���ٵ�һ��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������泯��·�ľ����ŵ��£���һ��СС�����Σ���������ĵ��ӣ���������̧���鿴�ţ�ż�������Ҹ�����ֻ�̧ͷ�������������ķ�ͱ���������ƣ��Ҹ���������ܾ���������ӡ�		�����ؼҰ�����£�ʲô��ΪҲû�С��ڼ�һֱ���ţ�Ҳû�г��ţ�...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075735_678761.html' target=_blank><h4>����ռ�800�ַ��ģ���١��������εı�Ե</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	������ĩ�࿼��������ĬĬ�������Լ�����٣�		�������������飻д��ƪС˵����ƪɢ�ģ�����ʫ������õ����ѻ������죬��Կ����񳪿�����Ȼ���ñ������������Σ��������ϵ���ȥ�˼��ɾ�ˮ��ؿ�ɽϷˮ��д�����棬��һ���µ���������&helli...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075732_678756.html' target=_blank><h4>����ռ�700�ַ��ģ���</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�����������һ������ʵ�ļ��ڣ��벻֪���������ӡ��ǲ����Լ�Ҫ��̫�ߣ��������ջ�Ҳ��û�ˣ����������룬����ܾ��������������һ������ˣ���ˣ��Ҹ�����ϧ��ε��Ĵ���ɽ��ʵϰ���ᣬ����ֵ�û�����º��񲢲��࣬�����˸е����龭���������ң�...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075730_678752.html' target=_blank><h4>����ռ�600�ַ��ģ�������ͯ��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�����糿һ���ۣ�����10�����ҡ���ȥ�ֱ�С̯�ϳԵ㶫����̯���ǶԷ򸾡�ʳ��һ�����д����顣�е���Ǯ����ʢ���˵���⽡����ӡ�Ů�����Ź��		�����Ҹո����£���⽶�������һֻС�־����ɵذ��������ϵĵ��Ϻз������Աߡ���̧ͷ��ȥ��һ������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075726_678745.html' target=_blank><h4>����ռ�500�ַ��ģ����������Ǹ���٣��£�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	������		����һ�����ٹ�·�������ᴩ�ҵĹ��磬���Ҿ������е�һ����·�ߡ�		�����Ҳ�֪������������Ϊ���ҵ���������һ�ݹ���������ǳ�ɽ��ʯ�Ӻ�����������һ��ͷ�εĸо����������޷���ȴ���ø��׵Ļ�˵��һ���µ�ʱ�䣬��ҵ�ʱ���ȥ�����̼�...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110816075726_678744.html' target=_blank><h4>����ռ�500�ַ��ģ����������Ǹ���٣��ϣ�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	������		����˳�������ң�Ȼ�������ɵ��ſ������졣��һ��ͷ�������ϸ���Ѱ�ҵ�Ŀ�⡣		�������ˣ�����˵��		������Ȼ��û�����߽��ſڣ������ֱ��Ѿ�����������ҵļ��ϣ�һ�������������������ҵ�������ٵ�̽���ſڣ�δ���ҷ�Ӧ�������ҵ�ƨ��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102545_676253.html' target=_blank><h4>�����μǣ���ԭ�Ÿ�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>������ԭ���ڳ�ϼ���߲ʹ����������������Ƶ���β�������ỽ�ѳ�˯��һҹ�Ķ��䡣ɽ���°����Ļ�ѩ��ȥ�˰�ҹ������أ�������չʾ���Լ��Ĵ�����ʥ�ࡣ����ѩ�������Ƶ�����������Ȼ��Ĭ�����������ı��ԣ���Ĭ��������������ڸ�ɽһ�࣬���ɵ����ˣ�����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102544_676252.html' target=_blank><h4>�����μǣ�����԰</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��&nbsp; �����ȥ���棬�и��ط����ɲ�ȥ���Ǿ��Ǻ���԰������ȥ�˻���ר���湻һ�䡣�������Ľ��ӵ���վ���л���������ͷ������ֱ�ﺣ��԰��˫���ʿ���������ڽ��ӵ���վ�Ǹ��ط��ϵİ�ʿ�������Ա���һ��Ʊ�������س��Ѽ���Ʊ����204...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102544_676251.html' target=_blank><h4>�����μǣ�ҹ���콭</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	&nbsp;&nbsp;&nbsp; �Թ�����������������ôһ�仰��&ldquo;����ɽˮ������&rdquo;�����죬�Ҿ������˾�ɫ�������µ��˼��ɾ��������˵Ĺ��֡�	�����׻�˵��&ldquo;�������ã������պ���&rdquo;��Ȼ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102543_676250.html' target=_blank><h4>�����μǣ���԰ɽׯ�μ�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	&nbsp;&nbsp;&nbsp; �峿����ӭ�ų�����̫��������͹Ĺĵ����ң������ͷܵ����飬���������ѧУ����ʦ������	����û��һ�����������ʦ�����ˡ����Ǹ����ǽ���һЩ�����������ĳ�ʶ�����Ǿ���������Ķ��麰�ſںų����ˡ�һ·...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102543_676249.html' target=_blank><h4>�����μǣ���������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����&ldquo;�Ͼ����������У���ⲻ����ʱͬ��&rdquo;ʫ��������������µ����������´���֮�����䲻���������Ǳ�����ĺɻ��������������Ӻ��ϣ�������ǰһ�����ⰻȻ������������һ����Ȥ��		�������������ϳ���������Զ����ֻ������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102542_676248.html' target=_blank><h4>�����μǣ����ƶ�������ͯ��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	������᫶��͵�ɽ·���������ʵ�СϪ���εض���ķ�Ⱥ�����������������ɽɭ�ֹ�԰���ڵ����ƶ�������ͱ��������ķ羰������Ĵ�˵�������������������뼸λͬѧ��Լ�����˻�ǣ���ӵ����ƶ���		�����峿�����ƶ���ɽ�����µģ����׵ģ�����һ����...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102542_676247.html' target=_blank><h4>�����μǣ�����ɽ</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	���������˵������ɽ�����Ĵ�˵��������͹�����ɽ�����ķ羰����Ͱݶ������˳�������ɽ���µľ���ƪ�¡�ֱ��ǰ���ã��Ҳ������衢������һ���������ӻ��Ƶ�����ɽ��������������������ޱȣ�		��������ɽλ�ڴ����س�����ʮ�����û�й���ɽˮǧ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102536_676236.html' target=_blank><h4>�����μǣ���Լ���̲</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	�������ס�ϲ��ǽ���ȴ������ԭ�򣬺��ٹ�˺��̲�������̲�ս�ȵ���������ȴ���ܲ���������ǰ����		�������գ�7��17�����磩����Լ��λ���ѣ��ڽ�ɫ����£������߽��˺��̲�ⷽ��������ء�		��������һ��������г������ǵ����ں��̲��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102535_676235.html' target=_blank><h4>�����μǣ��λ�ɽ</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����������ʱ���������硣����ʱ�ڣ��������ȣ����ҳԹ�����׼����ɽ���������˸������ǣ��ϻ�ɽ��������ϡ��Ͼ������죬������ȣ�����������������ɽ����������Ƚ�����ɢ���Ƚ����졣�������Ǿ��������������졣�����쵽ҹ��ʮһ��࣬����ʰ����װ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102535_676234.html' target=_blank><h4>�����μǣ�����ɽׯ�μ�</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	&nbsp;&nbsp;&nbsp; ���µļ��ϣ����ȵĴ�أ����ȵĿ����ƺ�Ҫ���˿����ˣ��뵽Ҫȥ�е±���ɽׯ���ģ���Ī���ĸе���һ˿������		�����������ƺ��������������Զ����ɽ���ƺ�����һ�㱡ɴ���������֡���˾��̨�����ű��ڣ�һ...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102533_676232.html' target=_blank><h4>���Ӣ���ռǣ�My&nbsp;whole&nbsp;day</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����July 6th Tuesday cloudy		����Ah ha,when I get up,it was time for lunch.But I really have a lot of work to do,I must w...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102533_676231.html' target=_blank><h4>��ѧ�����Ӣ���ռ�5</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	��&nbsp; Today is the first day of the summer camp. I couldn&rsquo;t sleep well yesterday evening. Maybe I felt a litt...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102532_676230.html' target=_blank><h4>��ѧ�����Ӣ���ռ�4</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	My chinese name is ��������My English name is Kate. Brown. My family name is Brown. My first name is Kate. I&rsquo;m 12 y...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102532_676229.html' target=_blank><h4>��ѧ�����Ӣ���ռ�3</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����My name is Jin Jiahong, and my English name is Kaci. I&rsquo;m 14years old, 37kg. I like English, and books, red, o...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102529_676228.html' target=_blank><h4>��ѧ�����Ӣ���ռ�2</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����January 16 2007&nbsp;	����It is a special day today. My mother sent one hundred basket of red bayberries. I like to e...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102529_676227.html' target=_blank><h4>��ѧ�����Ӣ���ռ�1</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	����January 15 2007&nbsp;	����It was the third day of our winter holiday. Today, there are many business in my mother&rsq...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110806102528_676226.html' target=_blank><h4>���Ӣ�����ģ�During&nbsp;Summer&nbsp;Vacation</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	I often go to see my grandma grandpa during my summer vacation.They are both seventy years old live in the country ha...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110805083952_676066.html' target=_blank><h4>����ռǣ��ҵ����������</h4></a></td> 
+  </tr>
+  <tr>
+    <td>��������ռǣ��ҵ�����������������������������˯�˸������������þ�û��ôʹ���˯���ˡ�����ԭ�����������ߵ��֮ǰ���������ܹ�����ʱ�򣬿����첻����Ը��ƫƫ��ٻ��ò��Ρ��ҼȲ���ѧ���ֲ�Ӣ�����Ū����ͷ�����ˡ�����ÿ���ߵ�׼ʱ�ϿΡ�...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20110805083952_676065.html' target=_blank><h4>����ռǣ���ҵ�����</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����	���������ǳ��н׶�������١�û�������Ŀ��֣��е�ֻ���˸кͷ��գ�	�����D�D���	�������Ż�ѧ���Խ��������������������ǵĳ��оʹ˽����ˡ������ϵĲ�֪�Ǹ���ţ����Ǹ��ʺţ���ֻ֪��һ��ʱ�������ˡ���ǰ��һ�в���ӵ�У���ʵ�Ļ�δ��ã�...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20100902204447_426069.html' target=_blank><h4>�������ϵ��</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����������ĸ���չϵ��(���) ���й���ѧ�� unjs.com�������ҵ���Ӿ��� ����������������ﰵ�����¶����ģ�Ҫѧ����Ӿ���Ҹ��˺�ϲ����ˮ��������Ľ��Щ��ˮ�˶�Ա����ˮ��һ˲�䣬̫���ˣ� ������ѡ������Ӿ�أ�үү��������ʹ�Ҹ��а�ȫ��...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" class="tdbg" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td class="tdbg_title"><a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/20100902204447_426068.html' target=_blank><h4>������ľ�ƪ</h4></a></td> 
+  </tr>
+  <tr>
+    <td>����������ľ�ƪ ���й���ѧ�� unjs.com����������                                     ����������Ƭ�ɡ����춬������Ϊ�����������ٱ���Ҷֲ������Ĺ���ֲ������ǡ�����֮�񡱵���˼����ʵ������...</td> 
+  </tr>
+  <tr>
+    <td> <!-- Baidu Button1 BEGIN -->
+	<div id="bdshare" class="bdshare_t bds_tools_24 get-codes-bdshare" data="{'url':'http://www.unjs.com/zuowen/ztzw/shujiazuowen/'}" style="float:right">
+	<a class="bds_copy"></a>
+	<a class="bds_qzone"></a>
+	<a class="bds_tsina"></a>
+	<a class="bds_tqq"></a>
+	<a class="bds_renren"></a>
+	<a class="bds_kaixin001"></a>
+	<a class="bds_ty"></a>
+	</div>
+<!-- Baidu Button1 END --> </td> 
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table><div class="showpage">�� <b>140</b> ƪ���ķ���&nbsp;&nbsp;��ҳ | ��һҳ | <font color="FF0000">1</font> <a href="http://www.unjs.com/zuowen/ztzw/shujiazuowen/List_2.html">2</a> <a href="http://www.unjs.com/zuowen/ztzw/shujiazuowen/List_1.html">3</a> | <a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/List_2.html'>��һҳ</a> | <a href='http://www.unjs.com/zuowen/ztzw/shujiazuowen/List_1.html'>βҳ  </a>&nbsp;<b>68</b>ƪ���ķ���/ҳ&nbsp;&nbsp;ת����<Input type='text' name='page' size='3' maxlength='5' value='1' onKeyPress="gopage(this.value,3)">ҳ<script language='javascript'>
+function gopage(page,totalpage){
+  if (event.keyCode==13){
+    if(Math.abs(page)>totalpage) page=totalpage;
+    if(Math.abs(page)>1) window.location='http://www.unjs.com/zuowen/ztzw/shujiazuowen/List_'+(totalpage-Math.abs(page)+1)+'.html';
+    else  window.location='http://www.unjs.com/zuowen/ztzw/shujiazuowen/Index.html';
+  }
+}
+</script>
+</div>
+
+    <!--ѭ���������--> 
+    </td> 
+  </tr>
+  <tr>
+    <td align="center"><script language='javascript' src='http://www.unjs.com/agao/201108/36.js'></script></td> 
+  </tr>
+  <tr>
+    <td align="center"><script language='javascript' src='http://www.unjs.com/agao/201111/40.js'></script></td> 
+  </tr>
+  <tr>
+    <td align="right" class="tdbg_title0"><A href="http://www.unjs.com">�й���ѧ��</A> http://www.unjs.com <h2><A href="http://www.unjs.com/zuowen/ztzw/shujiazuowen/">�������</A></h2></td> 
+  </tr>
+</table>
+    <!--��ҳ�в����������б�������--> 
+</td>
+        <td width="8"></td>
+        <td width="338" valign="top">
+    <!--��ҳ�в��������뿪ʼ--> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-break:break-all;Width:fixed"> 
+        <tr>
+          <td><script language='javascript' src='http://www.unjs.com/agao/201108/32.js'></script></td></tr><tr><td class=main_shadow></td></tr><tr><td><script language='javascript' src='http://www.unjs.com/agao/201110/38.js'></script></td></tr>
+        <tr>
+          <td class=title align=middle><div class="oneline4"><A href="http://www.unjs.com/zuowen/ztzw/shujiazuowen/">�������</A> | ��������</div></td>
+        </tr>
+        <tr> 
+          <td class=tdbg><table width="100%" cellpadding="0" cellspacing="0"><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/gaokao/news/20170103000000_1340566.html" title="ɽ���߿����ٷ����� 2017��ѧѧ�����ԡ�3+3��" target="_blank">ɽ���߿����ٷ�����&nbsp;2017��ѧѧ�����ԡ�3</a></td></tr><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/gaokao/news/20170103000000_1340565.html" title="��������ص��У����ƶ��������" target="_blank">��������ص��У����ƶ��������</a></td></tr><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/gaokao/news/20170103000000_1340564.html" title="2017ע�⣺�����������Կ��ܻ��漰���߸�����" target="_blank">2017ע�⣺�����������Կ��ܻ��漰���߸�</a></td></tr><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/gaokao/news/20170103000000_1340563.html" title="2017�й����Ǽ���ѧ���а���ϸ��" target="_blank">2017�й����Ǽ���ѧ���а���ϸ��</a></td></tr><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/gaokao/news/20170103000000_1340560.html" title="���ֿ������ɴ�� ���������տ���ʮ������" target="_blank">���ֿ������ɴ��&nbsp;���������տ���ʮ������</a></td></tr><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/gaokao/news/20170103000000_1340559.html" title="����������������ῴ�� ��Щ������Ϊ��Ҫ" target="_blank">����������������ῴ��&nbsp;��Щ������Ϊ��Ҫ</a></td></tr><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/gaokao/news/20170103000000_1340558.html" title="�����ɼ�������ô�� �㻹��������·����ѡ" target="_blank">�����ɼ�������ô��&nbsp;�㻹��������·����ѡ</a></td></tr><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/gaokao/news/20170103000000_1340557.html" title="У�ѻ��2017�й���Ѵ�ѧ���а� �����һ" target="_blank">У�ѻ��2017�й���Ѵ�ѧ���а�&nbsp;�����һ</a></td></tr><tr></tr></table></td> 
+        </tr>
+        <tr><td class=main_shadow></td></tr>
+        <tr>
+          <td><script language='javascript' src='http://www.unjs.com/agao/201308/43.js'></script></td>
+        </tr>
+      </table>
+    <!--��ҳ�в������������--> 
+    </td>
+  </tr>
+</table>
+    <!--������ʾ�������--> 
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="center_tdbgall"> 
+  <tr> 
+    <td Class="main_shadow"></td> 
+  </tr> 
+  <tr>
+    <td align="center" class='kuang'><script language='javascript' src='http://www.unjs.com/agao/201108/33.js'></script></td>
+  </tr>
+  <tr> 
+    <td Class="main_shadow"></td> 
+  </tr> 
+  <tr>
+    <td class="tdbg"><div class="oneline"> <!--�й���ѧ���Ƽ����¿�ʼ--><table width="100%" cellpadding="0" cellspacing="0"><tr><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/zuowen/zuowenwang/20170103000000_1340554.html" title="���ڼ��������" target="_blank">���ڼ��������</a></td><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/fanwenwang/juzi/20170103000000_1340548.html" title="��˵ľ���" target="_blank">��˵ľ���</a></td><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/fanwenwang/ziwopingjia/20170103000000_1340527.html" title="����������ôд" target="_blank">����������ôд</a></td><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/fanwenwang/fayangao/20170103000000_1340470.html" title="����ѧһ����Ա���ϵı�̬����" target="_blank">����ѧһ����Ա���ϵı�̬����</a></td><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/fanwenwang/pingyu/20170103000000_1340356.html" title="Сѧ���꼶��ĩ����ģ��" target="_blank">Сѧ���꼶��ĩ����ģ��</a></td><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/zuowendaquan/sanbaizizuowendaquan/1340256.html" title="Ϧ������300��" target="_blank">Ϧ������300��</a></td><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/youxiuzuowen/1340250.html" title="Ԫ���ļ�������450��" target="_blank">Ԫ���ļ�������450��</a></td><td width="10" valign="top" class="">��</td><td class=""><a class="" href="http://www.unjs.com/youjiao/jiazhang/20170103000000_1340153.html" title="ĸŮһ�����˴˾Ͳ�Ҫ������" target="_blank">ĸŮһ�����˴˾Ͳ�Ҫ������</a></td></tr><tr></tr></table><!--�й���ѧ���Ƽ����½���--> </div></td>
+  </tr>
+  <tr>
+    <td class=main_shadow></td>
+  </tr>
+</table>
+<!-- ********��ҳ�в��������******** -->  
+<!-- ********��ҳ�ײ����뿪ʼ******** -->
+<table cellSpacing=0 cellPadding=0 width=960 align=center border=0>
+    <tr>
+      <td class=title align=middle><A href="http://www.unjs.com">�й���ѧ��</A> | <A href="http://m.unjs.com/" target=_blank>�ƶ���</A> | <A onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.unjs.com');" href="#">��Ϊ��ҳ</A> | <A href="javascript:window.external.addFavorite('http://www.unjs.com','�й���ѧ��');">�����ղ�</A> | <A href="mailto:wfcqcn#qq.com">��ϵվ��</A> | <A href="http://www.unjs.com/FriendSite/" target=_blank>��������</A> | <A href="http://www.unjs.com/Copyright.html" target=_blank>��Ȩ����</A> | <A href="http://www.unjs.com/list/List_1189.html" target=_blank>����</A><A href="http://www.unjs.com/list2/List_79.html" target=_blank>�Ŀ�</A> | <A href="http://www.unjs.com/sitemap.html" target=_blank>��վ��ͼ</A> | <A href="http://tougao.unjs.com/" target=_blank>��ӭͶ��</A> | </td>
+    </tr>
+    <tr>
+      <td class=tdbg align=middle>
+      <script language='javascript' src='http://www.unjs.com/agao/201108/34.js'></script></td>
+    </tr>
+  </table> 
+  <!-- ********��ҳ�ײ��������******** --> 
+</body>
+</html>

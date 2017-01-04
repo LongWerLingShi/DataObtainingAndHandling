@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+	<link href="http://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/my.css">
+	<link rel="SHORTCUT ICON" href="img/tools.ico">
+	<script type="text/javascript" src="js/crawlerjs.js"></script>
+	<script type="text/javascript" src="js/DataProcessing.js"></script>
+	<script type="text/javascript" src="js/Login.js"></script>	
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Crawler</title>
+	<script type="text/javascript">
+		window.onload=LoadWS();
+	</script>
+	<script type="text/javascript">
+		setInterval("MyAutoRun2()",300); 
+	</script>
+</head>
+<body onload="USER.showlogin()">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" style="width:500px;margin-top:100px;"">
+		<div class="modal-content main" style="background:#eee;">
+			<div class="login-form">				
+				<div class="head">
+					<img class='img-responsive' src="img/user.png" alt=""/>
+				</div>
+				<h1>Member Login</h1>				
+				<form>
+					<input id="username" type="text" class="text" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
+					<input id="password" type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">					
+				</form>
+				<div class="matchform">
+					<div>
+						<button id="loginbtn" onClick="USER.login()">LOGIN</button>
+					</div>
+					<p><a href="#" style="color:#333;">Forgot Password ?</a></p>
+				</div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="setThreadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" style="width:500px;margin-top:100px;"">
+		<div class="modal-content main" style="background:#eee;">
+			<div class="login-form">				
+				<h1>请设置爬虫线程数</h1>				
+				<form id = "setThreadForm">
+					<input id="threadNumber" type="text" class="text" value="10" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '10';}" >
+				</form>
+				<div class="matchform">
+					<div>
+						<button id="loginbtn" onClick="CRAWLER.confirm()">确认</button>
+					</div>
+				</div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="container nomargin" style="margin-top: 30px;">
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+			<a href="#"><img src="img/tools.ico" alt="ico"  class="img-responsive" style="margin-left: 20px"></a>
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active nomargin"><a href="#">Crawler</a></li>
+				<li class="nomargin"><a onClick="USER.gotoDataHandler()">DataHandler</a></li>
+			</ul>
+		</div>
+		<div class="col-md-10 column littleborder">
+			<div class="row clearfix">
+				<div class="col-md-2">
+					<button class="btn btn-success" style="width: 100px;margin: 20px 10px 0 0;" onClick="CRAWLER.start()">Start</button>
+				</div>
+				<div class="col-md-2">
+					<button class="btn btn-danger" style="width: 100px;margin: 20px 10px 0 0;" onClick="CRAWLER.stop()">Stop</button>
+				</div>
+			</div>
+			<hr/>
+			<h3 class="onetitle">Overview</h3>
+			<table class="table text-muted" style="font-size: 12px">
+				<tbody>
+					<tr>
+						<th width="25%">状态:</th>
+						<th id="crawler_status" width="75%">爬取中...</th>
+					</tr>
+					<tr>
+						<th>开始爬取时间:</th>
+						<th id="crawler_starttime" >3 days ago</th>
+					</tr>
+					<tr>
+						<th>已爬取文件总数:</th>
+						<th id="crawler_filecount" >16222</th>
+					</tr>
+					<tr>
+						<th>当前启动的爬虫线程数:</th>
+						<th id="crawler_number" >10 files/s</th>
+					</tr>
+				</tbody>
+			</table>
+			<h3 class="onetitle">Details</h3>
+			<table class="table text-muted" style="font-size: 12px">
+				<tbody>
+					<tr>
+						<th width="25%">已爬取Html数量:</th>
+						<th id="htmlcount" width="75%">1232</th>
+					</tr>
+					<tr>
+						<th>已爬取Pdf数量:</th>
+						<th id="pdfcount" >123</th>
+					</tr>
+					<tr>
+						<th>已爬取Doc数量:</th>
+						<th id="doccount" >12</th>
+					</tr>
+					<tr>
+						<th>已爬取图片数量:</th>
+						<th id="picturecount" >1</th>
+					</tr>
+				</tbody>
+			</table>
+			<h3 class="onetitle">Web</h3>
+			<ul id = "ulWeb">
+			</ul>
+			<textarea id = "textAddWeb" style="display:none;">
+				<li>
+					<div class="row clearfix">
+						<div class="col-md-2">
+							<h5>添加网址：</h5>
+						</div>
+						<div class="col-md-8" id = "webAdd">
+							<input id="webaddress" class="form-control"></input>
+						</div>
+						<div class="col-md-1">
+							<button class="btn btn-success" style="margin: 5px 0 5px 0;padding:0; border-radius:100px;font-size:10px;width:25px;height:25px" onClick="CRAWLER.addWeb()">+</button>
+						</div>
+						<div class="col-md-1">
+							<div class="loadFile">
+								<img id="fileLogo" src="./img/fileLogo.jpg" style="margin:5px 0 5px 0;padding:0;width:25px;height:25px;" onclick="webFileSelect();">
+								<input type="file" name="fileToUpload" id="webFileToUpload" onchange = "webFileSelected(this);" style="display:none;">
+							</div>
+						</div>
+					</div>
+				</li>
+			</textarea>
+			<textarea id = "textShowWeb" style="display:none;">
+				<li>
+					<div class="row clearfix">
+						<div class="col-md-2">
+							<h5>网址#id#：</h5>
+						</div>
+						<div class="col-md-8">
+							<h5>$URL$</h5>
+						</div>
+						<div class="col-md-2">
+							<button class="btn btn-danger" style="margin: 5px 0 5px 0;padding:0; border-radius:100px;font-size:10px;width:25px;height:25px" onClick="CRAWLER.delWeb('#id#')">-</button>
+						</div>
+				</li>
+			</textarea>
+			<h3 class="onetitle">KeyWord</h3>
+			<ul id = "ulKeyWord">
+			</ul>
+			<textarea id = "textAddKeyWord" style="display:none;">
+				<li>
+					<div class="row clearfix">
+						<div class="col-md-2">
+							<h5>添加关键词：</h5>
+						</div>
+						<div class="col-md-8" id = "keyWordAdd">
+							<input class="form-control" name="keyword" id="keyword">
+						</div>
+						<div class="col-md-1">
+							<button class="btn btn-success" style="margin: 5px 0 5px 0;padding:0; border-radius:100px;font-size:10px;width:25px;height:25px" onClick="CRAWLER.addKeyWord()">+</button>
+						</div>
+						<div class="col-md-1">
+							<div class="loadFile">
+								<img id="fileLogo" src="./img/fileLogo.jpg" style="margin:5px 0 5px 0;padding:0;width:25px;height:25px;" onclick="kWFileSelect();">
+								<input type="file" name="fileToUpload" id="kWFileToUpload" onchange = "kWFileSelected(this);" style="display:none;">
+							</div>
+						</div>
+					</div>
+				</li>
+			</textarea>
+			<textarea id = "textShowKeyWord" style="display:none;">
+				<li>
+					<div class="row clearfix">
+						<div class="col-md-2">
+							<h5>关键词#id#：</h5>
+						</div>
+						<div class="col-md-8">
+							<h5>$word$</h5>
+						</div>
+						<div class="col-md-2">
+							<button class="btn btn-danger" style="margin: 5px 0 5px 0;padding:0; border-radius:100px;font-size:10px;width:25px;height:25px" onClick="CRAWLER.delKeyWord('#id#')">-</button>
+						</div>
+					</div>
+				</li>
+			</textarea>
+		</div>
+	</div>
+</div>
+</body>
+</html>

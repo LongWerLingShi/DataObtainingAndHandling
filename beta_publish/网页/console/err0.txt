@@ -1,0 +1,1 @@
+文件“E:\AppServ\www\datahandler2\console\temp0.txt”正由另一进程使用，因此该进程无法访问此文件。

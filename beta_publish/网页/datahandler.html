@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+	<link href="http://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/my.css">
+	<link rel="SHORTCUT ICON" href="img/tools.ico">
+	<script type="text/javascript" src="js/datahandlerjs.js"></script>
+	<script type="text/javascript" src="js/DataProcessing.js"></script>
+	<script type="text/javascript" src="js/Login.js"></script>	
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		setInterval("MyAutoRun()",300); 
+	</script>
+	<title>DataHandler</title>
+</head>
+<body onload="USER.showlogin()">
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" style="width:500px;margin-top:100px;"">
+		<div class="modal-content main" style="background:#eee;">
+			<div class="login-form">				
+				<div class="head">
+					<img class='img-responsive' src="img/user.png" alt=""/>
+				</div>
+				<h1>Member Login</h1>				
+				<form id='login-form' >
+					<input id="username" type="text" class="text" value="USERNAME" onfocus="if (this.value == 'USERNAME') {this.value = '';}" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
+					<input id="password" type="password" value="Password" onfocus="if (this.value == 'Password') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Password';}">					
+				</form>
+				<div class="matchform">
+					<div>
+						<button id="loginbtn" onClick="USER.login()">LOGIN</button>
+					</div>
+					<p><a href="#" style="color:#333;">Forgot Password ?</a></p>
+				</div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="container nomargin" style="margin-top: 30px;">
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+			<a href="#"><img src="img/tools.ico" alt="ico"  class="img-responsive" style="margin-left: 20px"></a>
+			<ul class="nav nav-pills nav-stacked">
+				<li class="nomargin"><a onClick = "USER.gotoCrawler()">Crawler</a></li>
+				<li class="active nomargin"><a href="#">DataHandler</a></li>
+			</ul>
+		</div>
+		<div class="col-md-10 column littleborder">
+			<div class="row clearfix">
+				<div class="row clearfix">
+					<div class="col-md-8 column">
+						<div class="col-md-2 column">
+							<button class="btn btn-danger btn-block" style="margin-top: 20px;" onClick="DH.restart()">Restart</button>
+						</div>
+						<div class="col-md-2 column">
+							<button class="btn btn-success btn-block" style="margin-top: 20px;" onClick="DH.Continue()">Continue</button>
+						</div>
+						<div class="col-md-2 column">
+							<button class="btn btn-warning btn-block" style="margin-top: 20px;" onClick="DH.parse()">Pause</button>
+						</div>
+					</div>
+					<div class="col-md-4 column">
+					</div>
+				</div>
+			</div>
+			<h3 class="onetitle">Overview</h3>
+			<table class="table text-muted" style="font-size: 12px">
+				<tbody>
+					<tr>
+						<th width="25%">状态:</th>
+						<th id="dh_status" width="75%">已关闭</th>
+					</tr>
+					<tr>
+						<th>开始处理时间:</th>
+						<th id="dh_starttime">3 days ago</th>
+					</tr>
+					<tr>
+						<th>文件总数:</th>
+						<th id="dh_filecount">16222</th>
+					</tr>
+					<tr>
+						<th>已处理数:</th>
+						<th id="dh_dealedcount">6222</th>
+					</tr>
+					<tr>
+						<th>失败数:</th>
+						<th id="dh_failedcount">62</th>
+					</tr>
+				</tbody>
+			</table>
+			<h3 class="onetitle">Thread</h3>
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>线程1 : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="thread1_pro_getting" class="progress-bar progress-bar-danger" style="width: 20%">
+						</div>
+						<div id="thread1_pro_dealing" class="progress-bar progress-bar-warning" style="width: 50%">
+						</div>
+						<div id="thread1_pro_sending" class="progress-bar progress-bar-success" style="width: 30%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread1_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread1_progress"></h6>
+				</div>
+			</div>	
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>线程2 : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="thread2_pro_getting" class="progress-bar progress-bar-danger" style="width: 20%">
+						</div>
+						<div id="thread2_pro_dealing" class="progress-bar progress-bar-warning" style="width: 50%">
+						</div>
+						<div id="thread2_pro_sending" class="progress-bar progress-bar-success" style="width: 30%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread2_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread2_progress"></h6>
+				</div>
+			</div>	
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>线程3 : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="thread3_pro_getting" class="progress-bar progress-bar-danger" style="width: 20%">
+						</div>
+						<div id="thread3_pro_dealing" class="progress-bar progress-bar-warning" style="width: 50%">
+						</div>
+						<div id="thread3_pro_sending" class="progress-bar progress-bar-success" style="width: 30%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread3_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread3_progress"></h6>
+				</div>
+			</div>	
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>线程4 : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="thread4_pro_getting" class="progress-bar progress-bar-danger" style="width: 20%">
+						</div>
+						<div id="thread4_pro_dealing" class="progress-bar progress-bar-warning" style="width: 50%">
+						</div>
+						<div id="thread4_pro_sending" class="progress-bar progress-bar-success" style="width: 30%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread4_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread4_progress"></h6>
+				</div>
+			</div>	
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>线程5 : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="thread5_pro_getting" class="progress-bar progress-bar-danger" style="width: 20%">
+						</div>
+						<div id="thread5_pro_dealing" class="progress-bar progress-bar-warning" style="width: 50%">
+						</div>
+						<div id="thread5_pro_sending" class="progress-bar progress-bar-success" style="width: 30%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理文件:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread5_fileName"></h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right threadInfo">
+					<h6>处理进度:</h6>
+				</div>
+				<div class="col-md-1 column threadInfo">
+					<h6 id="thread5_progress"></h6>
+				</div>
+			</div>	
+			<h3 class="onetitle">Details</h3>
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>Html : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="html_pro" class="progress-bar progress-success" style="width: 50%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right">
+					<h6>总数:</h6>
+				</div>
+				<div class="col-md-1 column">
+					<h6 id="html_totalcount">1000</h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right">
+					<h6>已处理:</h6>
+				</div>
+				<div class="col-md-1 column">
+					<h6 id="html_dealedcount">1000</h6>
+				</div>
+			</div>		
+			<hr/>
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>Pdf : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="pdf_pro" class="progress-bar progress-success" style="width: 60%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right">
+					<h6>总数:</h6>
+				</div>
+				<div class="col-md-1 column">
+					<h6 id="pdf_totalcount">1000</h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right">
+					<h6>已处理:</h6>
+				</div>
+				<div class="col-md-1 column">
+					<h6 id="pdf_dealedcount">1000</h6>
+				</div>
+			</div>	
+			<hr/>
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>Doc : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="doc_pro" class="progress-bar progress-success" style="width: 40%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right">
+					<h6>总数:</h6>
+				</div>
+				<div class="col-md-1 column">
+					<h6 id="doc_totalcount">1000</h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right">
+					<h6>已处理:</h6>
+				</div>
+				<div class="col-md-1 column">
+					<h6 id="doc_dealedcount">1000</h6>
+				</div>
+			</div>	
+			<hr/>
+			<div class="row clearfix">
+				<div class="col-md-2 column textprogress">
+					<h4 class="text-info text-center">
+						<em>Pictrue : </em>
+					</h4>
+				</div>
+				<div class="col-md-10 column dealprogress">
+					<div class="progress active progress-striped">
+						<div id="picture_pro" class="progress-bar progress-success" style="width: 20%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix text-muted">
+				<div class="col-md-1 column text-right">
+					<h6>总数:</h6>
+				</div>
+				<div class="col-md-1 column">
+					<h6 id="picture_totalcount">1000</h6>
+				</div>
+				<div class="col-md-1 column">
+				</div>
+				<div class="col-md-1 column text-right">
+					<h6>已处理:</h6>
+				</div>
+				<div class="col-md-1 column">
+					<h6 id="picture_dealedcount">1000</h6>
+				</div>
+			</div>	
+		</div>
+	</div> 	  
+</div>
+</body>
+</html>
